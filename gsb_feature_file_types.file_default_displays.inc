@@ -663,7 +663,7 @@ function gsb_feature_file_types_file_default_displays() {
   $file_display->weight = -50;
   $file_display->status = TRUE;
   $file_display->settings = array(
-    'image_style' => '270x158',
+    'image_style' => '270x158_video',
   );
   $export['video__preview__media_vimeo_image'] = $file_display;
 
@@ -774,9 +774,19 @@ function gsb_feature_file_types_file_default_displays() {
   $file_display->weight = 0;
   $file_display->status = TRUE;
   $file_display->settings = array(
-    'image_style' => '270x158',
+    'image_style' => '270x158_video',
   );
   $export['video__teaser__media_vimeo_image'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'video__teaser__media_youtube_image';
+  $file_display->weight = 0;
+  $file_display->status = TRUE;
+  $file_display->settings = array(
+    'image_style' => '270x158_video',
+  );
+  $export['video__teaser__media_youtube_image'] = $file_display;
 
   $file_display = new stdClass();
   $file_display->api_version = 1;
