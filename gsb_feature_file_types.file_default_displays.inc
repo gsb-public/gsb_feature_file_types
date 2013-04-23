@@ -95,7 +95,7 @@ function gsb_feature_file_types_file_default_displays() {
   $file_display->weight = 0;
   $file_display->status = TRUE;
   $file_display->settings = array(
-    'image_style' => '',
+    'image_style' => '566x396',
     'alt' => '[file:field_file_image_alt_text]',
     'title' => '[file:field_file_image_title_text]',
   );
@@ -574,8 +574,8 @@ function gsb_feature_file_types_file_default_displays() {
   $file_display->weight = 0;
   $file_display->status = FALSE;
   $file_display->settings = array(
-    'width' => '640',
-    'height' => '390',
+    'width' => '560',
+    'height' => '340',
     'theme' => 'dark',
     'color' => 'red',
     'autohide' => '2',
@@ -685,8 +685,8 @@ function gsb_feature_file_types_file_default_displays() {
   $file_display->weight = -46;
   $file_display->status = FALSE;
   $file_display->settings = array(
-    'width' => '640',
-    'height' => '390',
+    'width' => '560',
+    'height' => '340',
     'theme' => 'dark',
     'color' => 'red',
     'autohide' => '2',
