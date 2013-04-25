@@ -139,6 +139,9 @@ function gsb_feature_file_types_strongarm() {
       'token' => array(
         'custom_settings' => FALSE,
       ),
+      'original_image' => array(
+        'custom_settings' => TRUE,
+      ),
     ),
     'extra_fields' => array(
       'form' => array(),
@@ -149,6 +152,10 @@ function gsb_feature_file_types_strongarm() {
             'visible' => TRUE,
           ),
           'teaser' => array(
+            'weight' => '0',
+            'visible' => TRUE,
+          ),
+          'original_image' => array(
             'weight' => '0',
             'visible' => TRUE,
           ),
