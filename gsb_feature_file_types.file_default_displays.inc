@@ -382,7 +382,7 @@ function gsb_feature_file_types_file_default_displays() {
     'alt' => '[file:field_file_image_alt_text]',
     'title' => '[file:field_file_image_title_text]',
   );
-  $export['image__preview__file_image'] = $file_display;  
+  $export['image__preview__file_image'] = $file_display;
 
   $file_display = new stdClass();
   $file_display->api_version = 1;
@@ -621,8 +621,8 @@ function gsb_feature_file_types_file_default_displays() {
   $file_display->weight = 0;
   $file_display->status = TRUE;
   $file_display->settings = array(
-    'width' => '627',
-    'height' => '353',
+    'width' => '566',
+    'height' => '319',
     'autoplay' => 0,
   );
   $export['video__default__media_vimeo_video'] = $file_display;
@@ -696,7 +696,7 @@ function gsb_feature_file_types_file_default_displays() {
   $file_display->api_version = 1;
   $file_display->name = 'video__gsb_slideshow__media_vimeo_image';
   $file_display->weight = 0;
-  $file_display->status = TRUE;
+  $file_display->status = FALSE;
   $file_display->settings = array(
     'image_style' => '627x367',
   );
@@ -706,7 +706,7 @@ function gsb_feature_file_types_file_default_displays() {
   $file_display->api_version = 1;
   $file_display->name = 'video__gsb_slideshow__media_vimeo_video';
   $file_display->weight = 0;
-  $file_display->status = FALSE;
+  $file_display->status = TRUE;
   $file_display->settings = array(
     'width' => '560',
     'height' => '340',
@@ -718,7 +718,7 @@ function gsb_feature_file_types_file_default_displays() {
   $file_display->api_version = 1;
   $file_display->name = 'video__gsb_slideshow__media_youtube_image';
   $file_display->weight = 0;
-  $file_display->status = TRUE;
+  $file_display->status = FALSE;
   $file_display->settings = array(
     'image_style' => '627x367',
   );
@@ -728,7 +728,7 @@ function gsb_feature_file_types_file_default_displays() {
   $file_display->api_version = 1;
   $file_display->name = 'video__gsb_slideshow__media_youtube_video';
   $file_display->weight = 0;
-  $file_display->status = FALSE;
+  $file_display->status = TRUE;
   $file_display->settings = array(
     'width' => '560',
     'height' => '340',
