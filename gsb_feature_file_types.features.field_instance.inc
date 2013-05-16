@@ -135,7 +135,11 @@ function gsb_feature_file_types_field_default_field_instances() {
   // Exported field_instance: 'file-image-field_file_image_alignment'
   $field_instances['file-image-field_file_image_alignment'] = array(
     'bundle' => 'image',
-    'default_value' => NULL,
+    'default_value' => array(
+      0 => array(
+        'value' => 'caption-left',
+      ),
+    ),
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -249,14 +253,18 @@ function gsb_feature_file_types_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 2,
+      'weight' => 3,
     ),
   );
 
   // Exported field_instance: 'file-image-field_file_image_show_caption'
   $field_instances['file-image-field_file_image_show_caption'] = array(
     'bundle' => 'image',
-    'default_value' => NULL,
+    'default_value' => array(
+      0 => array(
+        'value' => 0,
+      ),
+    ),
     'deleted' => 0,
     'description' => '',
     'display' => array(
@@ -303,7 +311,7 @@ function gsb_feature_file_types_field_default_field_instances() {
       'active' => 1,
       'module' => 'options',
       'settings' => array(
-        'display_label' => 0,
+        'display_label' => 1,
         'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
       ),
       'type' => 'options_onoff',
@@ -371,7 +379,7 @@ function gsb_feature_file_types_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => -3,
+      'weight' => 2,
     ),
   );
 
@@ -437,7 +445,7 @@ function gsb_feature_file_types_field_default_field_instances() {
       'module' => 'options',
       'settings' => array(),
       'type' => 'options_buttons',
-      'weight' => -2,
+      'weight' => 6,
     ),
     'workbench_access_field' => 0,
   );
