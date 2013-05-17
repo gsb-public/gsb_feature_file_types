@@ -16,8 +16,16 @@ function gsb_feature_file_types_media_token_to_markup_alter(&$element, $tag_info
     $show_caption = $file->field_file_image_show_caption['und'];
     if ($show_caption) {
       $alignment = $file->field_file_image_alignment['und'];
-      $element['content']['#prefix'] = '<div class="' . $alignment . '">';
-      $element['content']['#suffix'] = '</div>';
+      $title = $element['content']['file']['#title'];
+      $width = $element['content']['file']['#width'];
+      if ($width) {
+        $style = ' style="' . $width . 'px;'
+      }
+      $element['#prefix'] = '<div class="' . $alignment . $style . '>';
+      $element['#suffix'] = '</div>';
+      if ($title) {
+        $element['content']['text'] = array('#markup' => '<div class="caption-text">' . $title . '</div>');
+      }
     }
   }
 }
