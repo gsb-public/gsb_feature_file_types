@@ -23,6 +23,12 @@ function gsb_feature_file_types_field_default_field_instances() {
         'type' => 'hidden',
         'weight' => 1,
       ),
+      'diptych' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
       'gsb_slideshow' => array(
         'label' => 'above',
         'settings' => array(),
@@ -83,6 +89,12 @@ function gsb_feature_file_types_field_default_field_instances() {
         'settings' => array(),
         'type' => 'hidden',
         'weight' => 1,
+      ),
+      'diptych' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
       ),
       'gsb_slideshow' => array(
         'label' => 'above',
@@ -149,6 +161,12 @@ function gsb_feature_file_types_field_default_field_instances() {
         'type' => 'hidden',
         'weight' => 9,
       ),
+      'diptych' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
       'gsb_slideshow' => array(
         'label' => 'above',
         'settings' => array(),
@@ -206,6 +224,12 @@ function gsb_feature_file_types_field_default_field_instances() {
         'settings' => array(),
         'type' => 'hidden',
         'weight' => 2,
+      ),
+      'diptych' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
       ),
       'full' => array(
         'label' => 'above',
@@ -274,6 +298,12 @@ function gsb_feature_file_types_field_default_field_instances() {
         'type' => 'hidden',
         'weight' => 8,
       ),
+      'diptych' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
       'gsb_slideshow' => array(
         'label' => 'above',
         'settings' => array(),
@@ -332,6 +362,12 @@ function gsb_feature_file_types_field_default_field_instances() {
         'settings' => array(),
         'type' => 'hidden',
         'weight' => 3,
+      ),
+      'diptych' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
       ),
       'full' => array(
         'label' => 'above',
@@ -395,6 +431,12 @@ function gsb_feature_file_types_field_default_field_instances() {
         'settings' => array(),
         'type' => 'hidden',
         'weight' => 1,
+      ),
+      'diptych' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
       ),
       'gsb_slideshow' => array(
         'label' => 'above',
@@ -462,6 +504,12 @@ function gsb_feature_file_types_field_default_field_instances() {
         'settings' => array(),
         'type' => 'hidden',
         'weight' => 1,
+      ),
+      'diptych' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
       ),
       'gsb_slideshow' => array(
         'label' => 'above',
