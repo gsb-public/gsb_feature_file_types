@@ -13,7 +13,12 @@ include_once 'gsb_feature_file_types.features.inc';
 function gsb_feature_file_types_media_token_to_markup_alter(&$element, $tag_info, $settings) {
   if (isset($element['content']) && $element['content']['#bundle'] == 'image') {
     $file = $element['content']['file']['#file'];
-    $show_caption = $file->field_file_image_show_caption['und'];
+    if (isset($file->field_file_image_show_caption['und'])) {
+      $show_caption = $file->field_file_image_show_caption['und'];
+    }
+    else {
+      $show_caption = FALSE;
+    }
     if ($show_caption) {
       $alignment = $file->field_file_image_alignment['und'];
       $title = $element['content']['file']['#title'];
