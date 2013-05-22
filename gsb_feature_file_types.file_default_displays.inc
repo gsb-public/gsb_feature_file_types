@@ -103,6 +103,97 @@ function gsb_feature_file_types_file_default_displays() {
 
   $file_display = new stdClass();
   $file_display->api_version = 1;
+  $file_display->name = 'image__diptych__file_field_fancybox';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = array(
+    'fancybox_image_style_content' => 'thumbnail',
+    'fancybox_image_style_fancybox' => 'large',
+    'fancybox_gallery' => 'post',
+    'fancybox_gallery_custom' => '',
+    'fancybox_caption' => 'auto',
+    'fancybox_caption_custom' => '',
+  );
+  $export['image__diptych__file_field_fancybox'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'image__diptych__file_field_file_default';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = '';
+  $export['image__diptych__file_field_file_default'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'image__diptych__file_field_file_rendered';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = array(
+    'file_view_mode' => 'default',
+  );
+  $export['image__diptych__file_field_file_rendered'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'image__diptych__file_field_file_table';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = '';
+  $export['image__diptych__file_field_file_table'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'image__diptych__file_field_file_url_plain';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = '';
+  $export['image__diptych__file_field_file_url_plain'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'image__diptych__file_field_gsb_field_formatter_responsive_video';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = array(
+    'file_view_mode' => 'default',
+    'preview_view_mode' => 'preview',
+  );
+  $export['image__diptych__file_field_gsb_field_formatter_responsive_video'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'image__diptych__file_field_image';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = array(
+    'image_style' => '',
+    'image_link' => '',
+  );
+  $export['image__diptych__file_field_image'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'image__diptych__file_field_media_large_icon';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = '';
+  $export['image__diptych__file_field_media_large_icon'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'image__diptych__file_image';
+  $file_display->weight = 0;
+  $file_display->status = TRUE;
+  $file_display->settings = array(
+    'image_style' => '450x263',
+    'alt' => '[file:field_file_image_alt_text]',
+    'title' => '[file:field_file_image_title_text]',
+  );
+  $export['image__diptych__file_image'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
   $file_display->name = 'image__full__file_image';
   $file_display->weight = 5;
   $file_display->status = TRUE;
@@ -607,6 +698,16 @@ function gsb_feature_file_types_file_default_displays() {
 
   $file_display = new stdClass();
   $file_display->api_version = 1;
+  $file_display->name = 'video__default__media_vimeo_image';
+  $file_display->weight = 1;
+  $file_display->status = TRUE;
+  $file_display->settings = array(
+    'image_style' => '',
+  );
+  $export['video__default__media_vimeo_image'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
   $file_display->name = 'video__default__media_vimeo_video';
   $file_display->weight = 0;
   $file_display->status = TRUE;
@@ -616,25 +717,112 @@ function gsb_feature_file_types_file_default_displays() {
     'autoplay' => 0,
   );
   $export['video__default__media_vimeo_video'] = $file_display;
-  
+
   $file_display = new stdClass();
   $file_display->api_version = 1;
-  $file_display->name = 'video__default__media_vimeo_image';
-  $file_display->weight = 1;
-  $file_display->status = TRUE;
+  $file_display->name = 'video__diptych__file_field_file_default';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = '';
+  $export['video__diptych__file_field_file_default'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'video__diptych__file_field_file_rendered';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = array(
+    'file_view_mode' => 'default',
+  );
+  $export['video__diptych__file_field_file_rendered'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'video__diptych__file_field_file_table';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = '';
+  $export['video__diptych__file_field_file_table'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'video__diptych__file_field_file_url_plain';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = '';
+  $export['video__diptych__file_field_file_url_plain'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'video__diptych__file_field_gsb_field_formatter_responsive_video';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = array(
+    'file_view_mode' => 'default',
+    'preview_view_mode' => 'preview',
+  );
+  $export['video__diptych__file_field_gsb_field_formatter_responsive_video'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'video__diptych__file_field_media_large_icon';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = '';
+  $export['video__diptych__file_field_media_large_icon'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'video__diptych__file_image';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
   $file_display->settings = array(
     'image_style' => '',
+    'alt' => '[file:field_file_image_alt_text]',
+    'title' => '[file:field_file_image_title_text]',
   );
-  $export['video__default__media_vimeo_image'] = $file_display;
-  
+  $export['video__diptych__file_image'] = $file_display;
+
   $file_display = new stdClass();
   $file_display->api_version = 1;
-  $file_display->name = 'video__default__media_youtube_video';
-  $file_display->weight = 2;
+  $file_display->name = 'video__diptych__media_vimeo_image';
+  $file_display->weight = 0;
   $file_display->status = TRUE;
   $file_display->settings = array(
-    'width' => '560',
-    'height' => '340',
+    'image_style' => '450x263_video',
+  );
+  $export['video__diptych__media_vimeo_image'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'video__diptych__media_vimeo_video';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = array(
+    'width' => '450',
+    'height' => '300',
+    'autoplay' => 0,
+  );
+  $export['video__diptych__media_vimeo_video'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'video__diptych__media_youtube_image';
+  $file_display->weight = 0;
+  $file_display->status = TRUE;
+  $file_display->settings = array(
+    'image_style' => '450x263_video',
+  );
+  $export['video__diptych__media_youtube_image'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'video__diptych__media_youtube_video';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = array(
+    'width' => '450',
+    'height' => '300',
     'theme' => 'dark',
     'color' => 'red',
     'autohide' => '2',
@@ -649,17 +837,7 @@ function gsb_feature_file_types_file_default_displays() {
     'enablejsapi' => 0,
     'origin' => '',
   );
-  $export['video__default__media_youtube_video'] = $file_display;
-  
-  $file_display = new stdClass();
-  $file_display->api_version = 1;
-  $file_display->name = 'video__default__media_youtube_image';
-  $file_display->weight = 3;
-  $file_display->status = TRUE;
-  $file_display->settings = array(
-    'image_style' => 'large',
-  );
-  $export['video__default__media_youtube_image'] = $file_display;
+  $export['video__diptych__media_youtube_video'] = $file_display;
 
   $file_display = new stdClass();
   $file_display->api_version = 1;
