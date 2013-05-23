@@ -469,9 +469,7 @@ function gsb_feature_file_types_file_default_displays() {
   $file_display->weight = 5;
   $file_display->status = TRUE;
   $file_display->settings = array(
-    'image_style' => '270x158',
-    'alt' => '[file:field_file_image_alt_text]',
-    'title' => '[file:field_file_image_title_text]',
+    'image_style' => 'media_thumbnail',
   );
   $export['image__preview__file_image'] = $file_display;
 
@@ -560,9 +558,7 @@ function gsb_feature_file_types_file_default_displays() {
   $file_display->weight = 5;
   $file_display->status = TRUE;
   $file_display->settings = array(
-    'image_style' => '270x158',
-    'alt' => '[file:field_file_image_alt_text]',
-    'title' => '[file:field_file_image_title_text]',
+    'image_style' => 'medium',
   );
   $export['image__teaser__file_image'] = $file_display;
 

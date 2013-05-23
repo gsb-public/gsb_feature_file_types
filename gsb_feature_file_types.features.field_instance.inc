@@ -290,7 +290,7 @@ function gsb_feature_file_types_field_default_field_instances() {
       ),
     ),
     'deleted' => 0,
-    'description' => '',
+    'description' => 'If checked, Image title attribute will be used as caption.',
     'display' => array(
       'default' => array(
         'label' => 'above',
@@ -562,6 +562,7 @@ function gsb_feature_file_types_field_default_field_instances() {
   // Translatables
   // Included for use with string extractors like potx.
   t('Alt Text');
+  t('If checked, Image title attribute will be used as caption.');
   t('Image alignment');
   t('Sections');
   t('Show caption');
