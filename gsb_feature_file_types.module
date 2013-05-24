@@ -33,7 +33,7 @@ function gsb_feature_file_types_media_token_to_markup_alter(&$element, $tag_info
         $element['content']['text'] = array('#markup' => '<div class="caption-text">' . $title . '</div>');
       }
     }
-    $element['#prefix'] = '<div class="' . $alignment . $style . '">';
+    $element['#prefix'] = '<div class="' . $alignment .'"' . $style . '>';
     $element['#suffix'] = '</div>';
   }
 }
