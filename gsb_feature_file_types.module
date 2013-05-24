@@ -13,7 +13,9 @@ include_once 'gsb_feature_file_types.features.inc';
 function gsb_feature_file_types_media_token_to_markup_alter(&$element, $tag_info, $settings) {
   if (isset($element['content']) && $element['content']['#bundle'] == 'image') {
     $file = $element['content']['file']['#file'];
-    $alignment = $file->field_file_image_alignment['und'];
+    if (isset($file->field_file_image_alignment['und'])) {
+      $alignment = $file->field_file_image_alignment['und'];
+    }
     $style = '';
     if (isset($file->field_file_image_show_caption['und']) && $file->field_file_image_show_caption['und'] == 1 && !is_array($file->field_file_image_show_caption['und'])) {
       $show_caption = TRUE;
