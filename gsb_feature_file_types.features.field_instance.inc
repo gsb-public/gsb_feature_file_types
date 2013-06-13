@@ -88,7 +88,7 @@ function gsb_feature_file_types_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 1,
+        'weight' => 2,
       ),
       'diptych' => array(
         'label' => 'above',
@@ -126,6 +126,12 @@ function gsb_feature_file_types_field_default_field_instances() {
         'type' => 'hidden',
         'weight' => 0,
       ),
+      'wysiwyg_document' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
     ),
     'entity_type' => 'file',
     'field_name' => 'field_sections',
@@ -139,7 +145,78 @@ function gsb_feature_file_types_field_default_field_instances() {
       'module' => 'options',
       'settings' => array(),
       'type' => 'options_buttons',
-      'weight' => -2,
+      'weight' => 3,
+    ),
+    'workbench_access_field' => 0,
+  );
+
+  // Exported field_instance: 'file-document-field_title'
+  $field_instances['file-document-field_title'] = array(
+    'bundle' => 'document',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 1,
+      ),
+      'diptych' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'gsb_slideshow' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'preview' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'wysiwyg_document' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'ds_extras_field_template' => '',
+    'entity_type' => 'file',
+    'field_name' => 'field_title',
+    'label' => 'Title',
+    'required' => 0,
+    'settings' => array(
+      'linkit' => array(
+        'enable' => 0,
+        'insert_plugin' => '',
+      ),
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'maxlength_js' => 0,
+        'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 0,
     ),
     'workbench_access_field' => 0,
   );
@@ -566,6 +643,7 @@ function gsb_feature_file_types_field_default_field_instances() {
   t('Image alignment');
   t('Sections');
   t('Show caption');
+  t('Title');
   t('Title Text');
   t('Title text attribute');
 

@@ -91,9 +91,31 @@ function gsb_feature_file_types_strongarm() {
       'token' => array(
         'custom_settings' => FALSE,
       ),
+      'diptych' => array(
+        'custom_settings' => TRUE,
+      ),
+      'wysiwyg_document' => array(
+        'custom_settings' => TRUE,
+      ),
+      'diff_standard' => array(
+        'custom_settings' => FALSE,
+      ),
+      'original_image' => array(
+        'custom_settings' => FALSE,
+      ),
     ),
     'extra_fields' => array(
-      'form' => array(),
+      'form' => array(
+        'filename' => array(
+          'weight' => '1',
+        ),
+        'preview' => array(
+          'weight' => '2',
+        ),
+        'metatags' => array(
+          'weight' => '4',
+        ),
+      ),
       'display' => array(
         'file' => array(
           'default' => array(

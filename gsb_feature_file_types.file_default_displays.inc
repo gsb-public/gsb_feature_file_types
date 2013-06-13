@@ -12,6 +12,14 @@ function gsb_feature_file_types_file_default_displays() {
 
   $file_display = new stdClass();
   $file_display->api_version = 1;
+  $file_display->name = 'document__wysiwyg_document__file_field_gsb_field_formatter_document';
+  $file_display->weight = 0;
+  $file_display->status = TRUE;
+  $file_display->settings = '';
+  $export['document__wysiwyg_document__file_field_gsb_field_formatter_document'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
   $file_display->name = 'image__default__file_field_fancybox';
   $file_display->weight = 0;
   $file_display->status = FALSE;
@@ -558,9 +566,7 @@ function gsb_feature_file_types_file_default_displays() {
   $file_display->weight = 5;
   $file_display->status = TRUE;
   $file_display->settings = array(
-    'image_style' => '270x158',
-    'alt' => '[file:field_file_image_alt_text]',
-    'title' => '[file:field_file_image_title_text]',
+    'image_style' => 'medium',
   );
   $export['image__teaser__file_image'] = $file_display;
 
