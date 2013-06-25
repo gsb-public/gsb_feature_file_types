@@ -443,6 +443,36 @@ function gsb_feature_file_types_file_default_displays() {
 
   $file_display = new stdClass();
   $file_display->api_version = 1;
+  $file_display->name = 'image__preview__file_field_gsb_field_formatter_document';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = '';
+  $export['image__preview__file_field_gsb_field_formatter_document'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'image__preview__file_field_gsb_field_formatter_image';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = array(
+    'image_style' => '',
+    'image_link' => '',
+  );
+  $export['image__preview__file_field_gsb_field_formatter_image'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'image__preview__file_field_gsb_field_formatter_image_or_video_popup';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = array(
+    'file_view_mode' => 'default',
+    'preview_view_mode' => 'preview',
+  );
+  $export['image__preview__file_field_gsb_field_formatter_image_or_video_popup'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
   $file_display->name = 'image__preview__file_field_gsb_field_formatter_responsive_video';
   $file_display->weight = 0;
   $file_display->status = FALSE;
@@ -482,6 +512,16 @@ function gsb_feature_file_types_file_default_displays() {
     'title' => '[file:field_file_image_title_text]',
   );
   $export['image__preview__file_image'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'image__preview__gsb_media_center_file_formatter_document';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = array(
+    'title' => '[file:field_title]',
+  );
+  $export['image__preview__gsb_media_center_file_formatter_document'] = $file_display;
 
   $file_display = new stdClass();
   $file_display->api_version = 1;
@@ -534,6 +574,36 @@ function gsb_feature_file_types_file_default_displays() {
 
   $file_display = new stdClass();
   $file_display->api_version = 1;
+  $file_display->name = 'image__teaser__file_field_gsb_field_formatter_document';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = '';
+  $export['image__teaser__file_field_gsb_field_formatter_document'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'image__teaser__file_field_gsb_field_formatter_image';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = array(
+    'image_style' => '',
+    'image_link' => '',
+  );
+  $export['image__teaser__file_field_gsb_field_formatter_image'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'image__teaser__file_field_gsb_field_formatter_image_or_video_popup';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = array(
+    'file_view_mode' => 'default',
+    'preview_view_mode' => 'preview',
+  );
+  $export['image__teaser__file_field_gsb_field_formatter_image_or_video_popup'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
   $file_display->name = 'image__teaser__file_field_gsb_field_formatter_responsive_video';
   $file_display->weight = 0;
   $file_display->status = FALSE;
@@ -573,6 +643,16 @@ function gsb_feature_file_types_file_default_displays() {
     'title' => '[file:field_file_image_title_text]',
   );
   $export['image__teaser__file_image'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'image__teaser__gsb_media_center_file_formatter_document';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = array(
+    'title' => '[file:field_title]',
+  );
+  $export['image__teaser__gsb_media_center_file_formatter_document'] = $file_display;
 
   $file_display = new stdClass();
   $file_display->api_version = 1;
@@ -675,6 +755,25 @@ function gsb_feature_file_types_file_default_displays() {
 
   $file_display = new stdClass();
   $file_display->api_version = 1;
+  $file_display->name = 'video__default__file_field_gsb_field_formatter_document';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = '';
+  $export['video__default__file_field_gsb_field_formatter_document'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'video__default__file_field_gsb_field_formatter_image_or_video_popup';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = array(
+    'file_view_mode' => 'default',
+    'preview_view_mode' => 'preview',
+  );
+  $export['video__default__file_field_gsb_field_formatter_image_or_video_popup'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
   $file_display->name = 'video__default__file_field_gsb_field_formatter_responsive_video';
   $file_display->weight = 0;
   $file_display->status = FALSE;
@@ -703,6 +802,16 @@ function gsb_feature_file_types_file_default_displays() {
     'title' => '[file:field_file_image_title_text]',
   );
   $export['video__default__file_image'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'video__default__gsb_media_center_file_formatter_document';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = array(
+    'title' => '[file:field_title]',
+  );
+  $export['video__default__gsb_media_center_file_formatter_document'] = $file_display;
 
   $file_display = new stdClass();
   $file_display->api_version = 1;
@@ -1004,6 +1113,25 @@ function gsb_feature_file_types_file_default_displays() {
 
   $file_display = new stdClass();
   $file_display->api_version = 1;
+  $file_display->name = 'video__preview__file_field_gsb_field_formatter_document';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = '';
+  $export['video__preview__file_field_gsb_field_formatter_document'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'video__preview__file_field_gsb_field_formatter_image_or_video_popup';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = array(
+    'file_view_mode' => 'default',
+    'preview_view_mode' => 'preview',
+  );
+  $export['video__preview__file_field_gsb_field_formatter_image_or_video_popup'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
   $file_display->name = 'video__preview__file_field_gsb_field_formatter_responsive_video';
   $file_display->weight = -43;
   $file_display->status = FALSE;
@@ -1032,6 +1160,16 @@ function gsb_feature_file_types_file_default_displays() {
     'title' => '[file:field_file_image_title_text]',
   );
   $export['video__preview__file_image'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'video__preview__gsb_media_center_file_formatter_document';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = array(
+    'title' => '[file:field_title]',
+  );
+  $export['video__preview__gsb_media_center_file_formatter_document'] = $file_display;
 
   $file_display = new stdClass();
   $file_display->api_version = 1;
@@ -1115,6 +1253,25 @@ function gsb_feature_file_types_file_default_displays() {
 
   $file_display = new stdClass();
   $file_display->api_version = 1;
+  $file_display->name = 'video__teaser__file_field_gsb_field_formatter_document';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = '';
+  $export['video__teaser__file_field_gsb_field_formatter_document'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'video__teaser__file_field_gsb_field_formatter_image_or_video_popup';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = array(
+    'file_view_mode' => 'default',
+    'preview_view_mode' => 'preview',
+  );
+  $export['video__teaser__file_field_gsb_field_formatter_image_or_video_popup'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
   $file_display->name = 'video__teaser__file_field_gsb_field_formatter_responsive_video';
   $file_display->weight = 0;
   $file_display->status = FALSE;
@@ -1143,6 +1300,16 @@ function gsb_feature_file_types_file_default_displays() {
     'title' => '[file:field_file_image_title_text]',
   );
   $export['video__teaser__file_image'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'video__teaser__gsb_media_center_file_formatter_document';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = array(
+    'title' => '[file:field_title]',
+  );
+  $export['video__teaser__gsb_media_center_file_formatter_document'] = $file_display;
 
   $file_display = new stdClass();
   $file_display->api_version = 1;
