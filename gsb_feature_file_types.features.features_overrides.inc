@@ -18,7 +18,6 @@ function gsb_feature_file_types_features_override_default_overrides() {
   $overrides["file_display.video__default__media_youtube_video.settings|autoplay"] = 0;
   $overrides["file_display.video__default__media_youtube_video.settings|color"] = 'red';
   $overrides["file_display.video__default__media_youtube_video.settings|enablejsapi"] = 0;
-  $overrides["file_display.video__default__media_youtube_video.settings|height"] = 390;
   $overrides["file_display.video__default__media_youtube_video.settings|loop"] = 0;
   $overrides["file_display.video__default__media_youtube_video.settings|modestbranding"] = 0;
   $overrides["file_display.video__default__media_youtube_video.settings|nocookie"] = 0;
@@ -28,10 +27,27 @@ function gsb_feature_file_types_features_override_default_overrides() {
   $overrides["file_display.video__default__media_youtube_video.settings|rel"] = 1;
   $overrides["file_display.video__default__media_youtube_video.settings|showinfo"] = 1;
   $overrides["file_display.video__default__media_youtube_video.settings|theme"] = 'dark';
-  $overrides["file_display.video__default__media_youtube_video.settings|width"] = 640;
   $overrides["file_display.video__default__media_youtube_video.status"] = TRUE;
   $overrides["file_display.video__preview__media_youtube_image.settings|image_style"] = '450x263_video';
   $overrides["file_display.video__preview__media_youtube_image.status"] = TRUE;
+  $overrides["file_display.video__teaser__media_youtube_image.settings|image_style"] = '450x263_video';
+  $overrides["file_display.video__teaser__media_youtube_image.status"] = TRUE;
+  $overrides["file_display.video__teaser__media_youtube_video.settings|autohide"] = 2;
+  $overrides["file_display.video__teaser__media_youtube_video.settings|autoplay"] = 0;
+  $overrides["file_display.video__teaser__media_youtube_video.settings|color"] = 'red';
+  $overrides["file_display.video__teaser__media_youtube_video.settings|enablejsapi"] = 0;
+  $overrides["file_display.video__teaser__media_youtube_video.settings|height"] = 340;
+  $overrides["file_display.video__teaser__media_youtube_video.settings|loop"] = 0;
+  $overrides["file_display.video__teaser__media_youtube_video.settings|modestbranding"] = 0;
+  $overrides["file_display.video__teaser__media_youtube_video.settings|nocookie"] = 0;
+  $overrides["file_display.video__teaser__media_youtube_video.settings|origin"] = '';
+  $overrides["file_display.video__teaser__media_youtube_video.settings|protocol"] = 'https:';
+  $overrides["file_display.video__teaser__media_youtube_video.settings|protocol_specify"] = 0;
+  $overrides["file_display.video__teaser__media_youtube_video.settings|rel"] = 1;
+  $overrides["file_display.video__teaser__media_youtube_video.settings|showinfo"] = 1;
+  $overrides["file_display.video__teaser__media_youtube_video.settings|theme"] = 'dark';
+  $overrides["file_display.video__teaser__media_youtube_video.settings|width"] = 560;
+  $overrides["file_display.video__teaser__media_youtube_video.status"] = TRUE;
 
  return $overrides;
 }
