@@ -28,9 +28,9 @@ function gsb_feature_file_types_features_override_default_overrides() {
   $overrides["file_display.video__default__media_youtube_video.settings|showinfo"] = 1;
   $overrides["file_display.video__default__media_youtube_video.settings|theme"] = 'dark';
   $overrides["file_display.video__default__media_youtube_video.status"] = TRUE;
-  $overrides["file_display.video__preview__media_youtube_image.settings|image_style"] = '450x263_video';
+  $overrides["file_display.video__preview__media_youtube_image.settings|image_style"] = '450x263';
   $overrides["file_display.video__preview__media_youtube_image.status"] = TRUE;
-  $overrides["file_display.video__teaser__media_youtube_image.settings|image_style"] = '450x263_video';
+  $overrides["file_display.video__teaser__media_youtube_image.settings|image_style"] = '450x263';
   $overrides["file_display.video__teaser__media_youtube_image.status"] = TRUE;
   $overrides["file_display.video__teaser__media_youtube_video.settings|autohide"] = 2;
   $overrides["file_display.video__teaser__media_youtube_video.settings|autoplay"] = 0;
