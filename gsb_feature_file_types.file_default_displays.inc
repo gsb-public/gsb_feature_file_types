@@ -921,7 +921,7 @@ function gsb_feature_file_types_file_default_displays() {
   $file_display->api_version = 1;
   $file_display->name = 'video__gsb_slideshow__media_vimeo_video';
   $file_display->weight = 0;
-  $file_display->status = TRUE;
+  $file_display->status = FALSE;
   $file_display->settings = array(
     'width' => '560',
     'height' => '340',
@@ -943,7 +943,7 @@ function gsb_feature_file_types_file_default_displays() {
   $file_display->api_version = 1;
   $file_display->name = 'video__gsb_slideshow__media_youtube_video';
   $file_display->weight = 0;
-  $file_display->status = TRUE;
+  $file_display->status = FALSE;
   $file_display->settings = array(
     'width' => '560',
     'height' => '340',
