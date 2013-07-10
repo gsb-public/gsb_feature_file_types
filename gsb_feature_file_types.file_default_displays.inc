@@ -16,7 +16,7 @@ function gsb_feature_file_types_file_default_displays() {
   $file_display->weight = 0;
   $file_display->status = TRUE;
   $file_display->settings = '';
-  $export['document__wysiwyg_document__file_field_gsb_field_formatter_document'] = $file_display;
+  $export['document__wysiwyg_document__file_field_gsb_field_formatter_document'] = $file_display;  
 
   $file_display = new stdClass();
   $file_display->api_version = 1;
@@ -423,7 +423,6 @@ function gsb_feature_file_types_file_default_displays() {
   $file_display->status = FALSE;
   $file_display->settings = array(
     'file_view_mode' => 'default',
-    'preview_view_mode' => 'preview',
   );
   $export['image__preview__file_field_gsb_field_formatter_image_or_video_popup'] = $file_display;
 
@@ -452,7 +451,9 @@ function gsb_feature_file_types_file_default_displays() {
   $file_display->weight = 5;
   $file_display->status = TRUE;
   $file_display->settings = array(
-    'image_style' => '450x263',
+    'image_style' => 'media_thumbnail',
+    'alt' => '[file:field_file_image_alt_text]',
+    'title' => '[file:field_file_image_title_text]',
   );
   $export['image__preview__file_image'] = $file_display;
 
@@ -1012,7 +1013,6 @@ function gsb_feature_file_types_file_default_displays() {
   $file_display->status = FALSE;
   $file_display->settings = array(
     'file_view_mode' => 'default',
-    'preview_view_mode' => 'preview',
   );
   $export['video__preview__file_field_gsb_field_formatter_image_or_video_popup'] = $file_display;
 
@@ -1052,7 +1052,7 @@ function gsb_feature_file_types_file_default_displays() {
   $file_display->weight = -50;
   $file_display->status = TRUE;
   $file_display->settings = array(
-    'image_style' => '450x263',
+    'image_style' => 'media_thumbnail',
   );
   $export['video__preview__media_vimeo_image'] = $file_display;
 

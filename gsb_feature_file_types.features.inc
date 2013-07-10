@@ -51,7 +51,7 @@ function gsb_feature_file_types_file_default_displays_alter(&$data) {
     $data['video__default__media_youtube_video']->status = TRUE; /* WAS: 1 */
   }
   if (isset($data['video__preview__media_youtube_image'])) {
-    $data['video__preview__media_youtube_image']->settings['image_style'] = '450x263'; /* WAS: 'square_thumbnail' */
+    $data['video__preview__media_youtube_image']->settings['image_style'] = 'media_thumbnail'; /* WAS: 'square_thumbnail' */
     $data['video__preview__media_youtube_image']->status = TRUE; /* WAS: 1 */
   }
   if (isset($data['video__teaser__media_youtube_image'])) {
