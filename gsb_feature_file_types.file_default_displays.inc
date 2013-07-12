@@ -1091,6 +1091,16 @@ function gsb_feature_file_types_file_default_displays() {
     'origin' => '',
   );
   $export['video__preview__media_youtube_video'] = $file_display;
+  
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'video__preview__media_youtube_video';
+  $file_display->weight = -50;
+  $file_display->status = TRUE;
+  $file_display->settings = array(
+    'image_style' => 'media_thumbnail',
+  );
+  $export['video__preview__media_youtube_video'] = $file_display;    
 
   $file_display = new stdClass();
   $file_display->api_version = 1;
