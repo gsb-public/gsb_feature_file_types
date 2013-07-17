@@ -12,7 +12,7 @@ function gsb_feature_file_types_features_override_default_overrides() {
   $overrides = array();
 
   // Exported overrides for: file_display
-  $overrides["file_display.video__default__media_youtube_image.settings|image_style"] = '566x_variable';
+  $overrides["file_display.video__default__media_youtube_image.settings|image_style"] = '566x_variable';  
   $overrides["file_display.video__default__media_youtube_image.status"] = TRUE;
   $overrides["file_display.video__default__media_youtube_video.settings|autohide"] = 2;
   $overrides["file_display.video__default__media_youtube_video.settings|autoplay"] = 0;
@@ -30,7 +30,7 @@ function gsb_feature_file_types_features_override_default_overrides() {
   $overrides["file_display.video__default__media_youtube_video.status"] = TRUE;
   $overrides["file_display.video__preview__media_youtube_image.settings|image_style"] = 'media_thumbnail';
   $overrides["file_display.video__preview__media_youtube_image.status"] = TRUE;
-  $overrides["file_display.video__teaser__media_youtube_image.settings|image_style"] = '450x263';
+  $overrides["file_display.video__teaser__media_youtube_image.settings|image_style"] = '450x263';  
   $overrides["file_display.video__teaser__media_youtube_image.status"] = TRUE;
   $overrides["file_display.video__teaser__media_youtube_video.settings|autohide"] = 2;
   $overrides["file_display.video__teaser__media_youtube_video.settings|autoplay"] = 0;

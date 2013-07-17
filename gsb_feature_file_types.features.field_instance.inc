@@ -35,6 +35,12 @@ function gsb_feature_file_types_field_default_field_instances() {
         'type' => 'hidden',
         'weight' => 0,
       ),
+      'gsb_slideshow_small' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
       'ical' => array(
         'label' => 'above',
         'settings' => array(),
@@ -97,6 +103,12 @@ function gsb_feature_file_types_field_default_field_instances() {
         'weight' => 0,
       ),
       'gsb_slideshow' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'gsb_slideshow_small' => array(
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
@@ -221,6 +233,7 @@ function gsb_feature_file_types_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
+
   // Exported field_instance: 'file-image-field_file_image_alignment'
   $field_instances['file-image-field_file_image_alignment'] = array(
     'bundle' => 'image',
@@ -245,6 +258,12 @@ function gsb_feature_file_types_field_default_field_instances() {
         'weight' => 0,
       ),
       'gsb_slideshow' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'gsb_slideshow_small' => array(
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
@@ -320,6 +339,12 @@ function gsb_feature_file_types_field_default_field_instances() {
         'type' => 'hidden',
         'weight' => 0,
       ),
+      'gsb_slideshow_small' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
       'original_image' => array(
         'label' => 'above',
         'settings' => array(),
@@ -382,6 +407,12 @@ function gsb_feature_file_types_field_default_field_instances() {
         'weight' => 0,
       ),
       'gsb_slideshow' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'gsb_slideshow_small' => array(
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
@@ -458,6 +489,12 @@ function gsb_feature_file_types_field_default_field_instances() {
         'type' => 'hidden',
         'weight' => 0,
       ),
+      'gsb_slideshow_small' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
       'original_image' => array(
         'label' => 'above',
         'settings' => array(),
@@ -516,6 +553,12 @@ function gsb_feature_file_types_field_default_field_instances() {
         'weight' => 0,
       ),
       'gsb_slideshow' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'gsb_slideshow_small' => array(
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
@@ -594,6 +637,12 @@ function gsb_feature_file_types_field_default_field_instances() {
         'type' => 'hidden',
         'weight' => 0,
       ),
+      'gsb_slideshow_small' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
       'ical' => array(
         'label' => 'above',
         'settings' => array(),
@@ -643,7 +692,7 @@ function gsb_feature_file_types_field_default_field_instances() {
   t('Image alignment');
   t('Sections');
   t('Show caption');
-  t('Title');
+  t('Title');  
   t('Title Text');
   t('Title text attribute');
 
