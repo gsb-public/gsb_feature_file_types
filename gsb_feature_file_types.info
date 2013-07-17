@@ -214,3 +214,10 @@ features[variable][] = field_bundle_settings_file__audio
 features[variable][] = field_bundle_settings_file__document
 features[variable][] = field_bundle_settings_file__image
 features[variable][] = field_bundle_settings_file__video
+
+
+; Information added by drush on 2013-07-17
+version = "WPBQA-246-dev"
+project = "gsb_feature_file_types"
+datestamp = "1374092899"
+

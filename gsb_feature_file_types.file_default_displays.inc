@@ -371,7 +371,7 @@ function gsb_feature_file_types_file_default_displays() {
   $file_display->weight = 0;
   $file_display->status = TRUE;
   $file_display->settings = array(
-    'image_style' => '566x_variable',
+    'image_style' => '566x396',
     'alt' => '[file:field_file_image_alt_text]',
     'title' => '[file:field_file_image_title_text]',
   );
@@ -1171,7 +1171,7 @@ function gsb_feature_file_types_file_default_displays() {
   $file_display->weight = 0;
   $file_display->status = TRUE;
   $file_display->settings = array(
-    'image_style' => '566x_variable',
+    'image_style' => '566x396',
   );
   $export['video__gsb_slideshow_small__media_vimeo_image'] = $file_display;
 
@@ -1193,7 +1193,7 @@ function gsb_feature_file_types_file_default_displays() {
   $file_display->weight = 0;
   $file_display->status = TRUE;
   $file_display->settings = array(
-    'image_style' => '566x_variable',
+    'image_style' => '566x396',
   );
   $export['video__gsb_slideshow_small__media_youtube_image'] = $file_display;
 
