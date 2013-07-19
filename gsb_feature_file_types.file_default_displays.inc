@@ -1474,7 +1474,19 @@ function gsb_feature_file_types_file_default_displays() {
     'height' => '340',
     'autoplay' => 0,
   );
-  $export['video__teaser__media_youtube_video'] = $file_display;    
+  $export['video__teaser__media_youtube_video'] = $file_display;  
+  
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'video__teaser__media_youtube_video';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = array(
+    'width' => '560',
+    'height' => '340',
+    'autoplay' => 0,
+  );
+  $export['video__teaser__media_youtube_video'] = $file_display;  
 
   return $export;
 }
