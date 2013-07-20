@@ -221,3 +221,10 @@ version = "WPBQA-246-dev"
 project = "gsb_feature_file_types"
 datestamp = "1374092899"
 
+
+
+; Information added by drush on 2013-07-19
+version = "WP-1942-dev"
+project = "gsb_feature_file_types"
+datestamp = "1374268587"
+

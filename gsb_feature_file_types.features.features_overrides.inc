@@ -45,7 +45,7 @@ function gsb_feature_file_types_features_override_default_overrides() {
   $overrides["file_display.video__teaser__media_youtube_video.settings|rel"] = 1;
   $overrides["file_display.video__teaser__media_youtube_video.settings|showinfo"] = 1;
   $overrides["file_display.video__teaser__media_youtube_video.settings|theme"] = 'dark';
-  $overrides["file_display.video__teaser__media_youtube_video.status"] = TRUE;
+  $overrides["file_display.video__teaser__media_youtube_video.status"] = FALSE;
 
  return $overrides;
 }
