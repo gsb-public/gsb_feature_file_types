@@ -239,7 +239,7 @@ function gsb_feature_file_types_field_default_field_instances() {
     'bundle' => 'image',
     'default_value' => array(
       0 => array(
-        'value' => 'image-float-left',
+        'value' => 'caption-left',
       ),
     ),
     'deleted' => 0,
