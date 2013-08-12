@@ -16,7 +16,7 @@ function gsb_feature_file_types_file_default_displays() {
   $file_display->weight = 0;
   $file_display->status = TRUE;
   $file_display->settings = '';
-  $export['document__wysiwyg_document__file_field_gsb_field_formatter_document'] = $file_display;    
+  $export['document__wysiwyg_document__file_field_gsb_field_formatter_document'] = $file_display;
 
   $file_display = new stdClass();
   $file_display->api_version = 1;
@@ -1204,7 +1204,7 @@ function gsb_feature_file_types_file_default_displays() {
   $file_display->status = FALSE;
   $file_display->settings = array(
     'width' => '640',
-    'height' => '390',
+    'height' => '360',
     'theme' => 'dark',
     'color' => 'red',
     'autohide' => '2',
@@ -1357,7 +1357,7 @@ function gsb_feature_file_types_file_default_displays() {
   $file_display->settings = array(
     'image_style' => 'media_thumbnail',
   );
-  $export['video__preview__media_youtube_video'] = $file_display;  
+  $export['video__preview__media_youtube_video'] = $file_display;
 
   $file_display = new stdClass();
   $file_display->api_version = 1;
@@ -1463,7 +1463,7 @@ function gsb_feature_file_types_file_default_displays() {
     'autoplay' => 0,
   );
   $export['video__teaser__media_vimeo_video'] = $file_display;
-  
+
   $file_display = new stdClass();
   $file_display->api_version = 1;
   $file_display->name = 'video__teaser__media_youtube_video';
@@ -1474,7 +1474,7 @@ function gsb_feature_file_types_file_default_displays() {
     'height' => '340',
     'autoplay' => 0,
   );
-  $export['video__teaser__media_youtube_video'] = $file_display;  
+  $export['video__teaser__media_youtube_video'] = $file_display;
 
   return $export;
 }
