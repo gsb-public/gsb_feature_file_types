@@ -39,33 +39,3 @@ function gsb_feature_file_types_media_token_to_markup_alter(&$element, $tag_info
   }
 }
 
-/**
- * Implements hook_install().
- */
-function gsb_feature_file_types_install() {
-
-  // overriding image view modes preview and teaser which are 
-  // initially setup in media.module
-
-  module_load_include('inc', 'file_entity', 'file_entity.file_api');
-
-  $default_image_styles = array(
-    'preview' => '450x263',
-    'teaser' => '450x263',
-  );
-
-  foreach ($default_image_styles as $view_mode => $image_style) {
-
-    $image_displays = file_displays_load('image', $view_mode);
-
-    $display_name = 'image__' . $view_mode . '__file_image';;
-
-    if (isset($image_displays[$display_name])) {
-      $display = $image_displays[$display_name];
-      $display->settings['image_style'] = $image_style;
-      file_display_save((object) $display);
-    }
-    
-  }    
-
-}
