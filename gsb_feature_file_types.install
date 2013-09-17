@@ -1,0 +1,40 @@
+<?php
+
+/**
+ * Implements hook_install().
+ *
+ * Perform actions to set up the site for this profile.
+ */
+function gsb_public_install() {
+
+  // Make the weight of gsb_feature_file_types one higher than media.
+  $weight = db_select('system', 's')
+              ->fields('s', array('weight'))
+              ->condition('name', 'media', '=')
+              ->execute()
+              ->fetchField();
+
+  db_update('system')
+    ->fields(array('weight' => $weight +1))
+    ->condition('name', 'gsb_feature_file_types', '=')
+    ->execute();
+
+}
+
+/**
+ * Setting gsb_feature_file_types to follow media, in the module peckin' order.
+ */
+function gsb_feature_file_types_update_7000() {
+
+  // Make the weight of gsb_feature_file_types one higher than media.
+  $weight = db_select('system', 's')
+              ->fields('s', array('weight'))
+              ->condition('name', 'media', '=')
+              ->execute()
+              ->fetchField();
+
+  db_update('system')
+    ->fields(array('weight' => $weight +1))
+    ->condition('name', 'gsb_feature_file_types', '=')
+    ->execute();
+}
