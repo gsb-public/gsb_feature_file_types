@@ -5,7 +5,7 @@
  *
  * Perform actions to set up the site for this profile.
  */
-function gsb_public_install() {
+function gsb_feature_file_types_install() {
 
   // Make the weight of gsb_feature_file_types one higher than media.
   $weight = db_select('system', 's')
