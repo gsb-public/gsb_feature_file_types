@@ -74,4 +74,9 @@ function gsb_feature_file_types_file_default_displays_alter(&$data) {
     $data['video__teaser__media_youtube_video']->settings['theme'] = 'dark'; /* WAS: '' */
     $data['video__teaser__media_youtube_video']->status = FALSE; /* WAS: 1 */
   }
+  
+  if (isset($data['video__preview__file_field_media_large_icon'])) {
+    $data['video__preview__file_field_media_large_icon']->status = FALSE;
+  }  
+  
 }
