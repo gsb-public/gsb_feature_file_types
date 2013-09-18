@@ -26,7 +26,6 @@ function gsb_feature_file_types_ctools_plugin_api($module = NULL, $api = NULL) {
  * Implements hook_file_default_displays_alter().
  */
 function gsb_feature_file_types_file_default_displays_alter(&$data) {
-/*  
   if (isset($data['video__preview__media_youtube_image'])) {
     //dpm($data['video__preview__media_youtube_image']);
     $data['video__preview__media_youtube_image']->settings = array(
@@ -47,5 +46,4 @@ function gsb_feature_file_types_file_default_displays_alter(&$data) {
   if (isset($data['video__preview__file_field_media_large_icon'])) {
     $data['video__preview__file_field_media_large_icon']->status = FALSE;
   }
-*/   
 }
