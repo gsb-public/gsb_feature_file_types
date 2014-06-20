@@ -71,6 +71,8 @@ function gsb_feature_file_types_field_default_field_instances() {
     'label' => 'Sections',
     'required' => 1,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'user_register_form' => FALSE,
     ),
     'widget' => array(
@@ -150,6 +152,8 @@ function gsb_feature_file_types_field_default_field_instances() {
     'label' => 'Sections',
     'required' => 1,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'user_register_form' => FALSE,
     ),
     'widget' => array(
@@ -222,6 +226,8 @@ function gsb_feature_file_types_field_default_field_instances() {
     'label' => 'Image alignment',
     'required' => 0,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'user_register_form' => FALSE,
     ),
     'widget' => array(
@@ -297,6 +303,8 @@ function gsb_feature_file_types_field_default_field_instances() {
     'label' => 'Alt Text',
     'required' => 0,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'text_processing' => 0,
       'user_register_form' => FALSE,
     ),
@@ -371,6 +379,8 @@ function gsb_feature_file_types_field_default_field_instances() {
     'label' => 'Show caption',
     'required' => 0,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'user_register_form' => FALSE,
     ),
     'widget' => array(
@@ -447,6 +457,8 @@ function gsb_feature_file_types_field_default_field_instances() {
     'label' => 'Title Text',
     'required' => 0,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'text_processing' => 0,
       'user_register_form' => FALSE,
     ),
@@ -528,6 +540,8 @@ function gsb_feature_file_types_field_default_field_instances() {
     'label' => 'Sections',
     'required' => 1,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'user_register_form' => FALSE,
     ),
     'widget' => array(
@@ -601,6 +615,8 @@ function gsb_feature_file_types_field_default_field_instances() {
     'label' => 'Sections',
     'required' => 1,
     'settings' => array(
+      'custom_add_another' => '',
+      'custom_remove' => '',
       'user_register_form' => FALSE,
     ),
     'widget' => array(
