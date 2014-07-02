@@ -1005,6 +1005,98 @@ function gsb_feature_file_types_file_default_displays() {
 
   $file_display = new stdClass();
   $file_display->api_version = 1;
+  $file_display->name = 'resource_image__preview__file_field_image';
+  $file_display->weight = 0;
+  $file_display->status = TRUE;
+  $file_display->settings = array(
+    'image_style' => 'thumbnail',
+    'image_link' => '',
+  );
+  $export['resource_image__preview__file_field_image'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'resource_image__teaser__file_field_image';
+  $file_display->weight = 0;
+  $file_display->status = TRUE;
+  $file_display->settings = array(
+    'image_style' => '',
+    'image_link' => '',
+  );
+  $export['resource_image__teaser__file_field_image'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'resource_pull_quote__default__resources_file_fields';
+  $file_display->weight = 0;
+  $file_display->status = TRUE;
+  $file_display->settings = '';
+  $export['resource_pull_quote__default__resources_file_fields'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'resource_pull_quote__preview__resources_resource_icon';
+  $file_display->weight = 0;
+  $file_display->status = TRUE;
+  $file_display->settings = array(
+    'image_style' => '',
+  );
+  $export['resource_pull_quote__preview__resources_resource_icon'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'resource_twitter__default__resources_resource_twitter_widget';
+  $file_display->weight = 0;
+  $file_display->status = TRUE;
+  $file_display->settings = '';
+  $export['resource_twitter__default__resources_resource_twitter_widget'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'resource_twitter__preview__resources_resource_icon';
+  $file_display->weight = 0;
+  $file_display->status = TRUE;
+  $file_display->settings = array(
+    'image_style' => 'thumbnail',
+  );
+  $export['resource_twitter__preview__resources_resource_icon'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'resource_youtube__default__resources_resource_youtube_video';
+  $file_display->weight = 0;
+  $file_display->status = TRUE;
+  $file_display->settings = array(
+    'width' => '640',
+    'height' => '390',
+    'theme' => 'dark',
+    'color' => 'red',
+    'autohide' => '2',
+    'autoplay' => 0,
+    'loop' => 0,
+    'showinfo' => 1,
+    'modestbranding' => 0,
+    'rel' => 1,
+    'nocookie' => 0,
+    'protocol_specify' => 0,
+    'protocol' => 'https:',
+    'enablejsapi' => 0,
+    'origin' => '',
+  );
+  $export['resource_youtube__default__resources_resource_youtube_video'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'resource_youtube__preview__resources_resource_youtube_image';
+  $file_display->weight = 0;
+  $file_display->status = TRUE;
+  $file_display->settings = array(
+    'image_style' => 'thumbnail',
+  );
+  $export['resource_youtube__preview__resources_resource_youtube_image'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
   $file_display->name = 'video__default__file_field_file_audio';
   $file_display->weight = 0;
   $file_display->status = FALSE;
@@ -1134,8 +1226,8 @@ function gsb_feature_file_types_file_default_displays() {
   $file_display->weight = 0;
   $file_display->status = TRUE;
   $file_display->settings = array(
-    'width' => '566',
-    'height' => '345',
+    'width' => '640',
+    'height' => '390',
     'theme' => 'dark',
     'color' => 'red',
     'autohide' => '2',
@@ -1568,7 +1660,7 @@ function gsb_feature_file_types_file_default_displays() {
   $file_display->api_version = 1;
   $file_display->name = 'video__preview__file_field_media_large_icon';
   $file_display->weight = 50;
-  $file_display->status = FALSE;
+  $file_display->status = TRUE;
   $file_display->settings = '';
   $export['video__preview__file_field_media_large_icon'] = $file_display;
 
@@ -1610,7 +1702,7 @@ function gsb_feature_file_types_file_default_displays() {
   $file_display->weight = 0;
   $file_display->status = TRUE;
   $file_display->settings = array(
-    'image_style' => '270x158_video',
+    'image_style' => 'media_thumbnail',
   );
   $export['video__preview__media_youtube_image'] = $file_display;
 
@@ -1767,7 +1859,7 @@ function gsb_feature_file_types_file_default_displays() {
   $file_display->api_version = 1;
   $file_display->name = 'video__teaser__media_youtube_video';
   $file_display->weight = 0;
-  $file_display->status = FALSE;
+  $file_display->status = TRUE;
   $file_display->settings = array(
     'width' => '560',
     'height' => '340',
