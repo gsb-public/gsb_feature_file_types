@@ -1005,6 +1005,39 @@ function gsb_feature_file_types_file_default_displays() {
 
   $file_display = new stdClass();
   $file_display->api_version = 1;
+  $file_display->name = 'resource_image__1_2_width__file_field_image';
+  $file_display->weight = 0;
+  $file_display->status = TRUE;
+  $file_display->settings = array(
+    'image_style' => '816x_variable',
+    'image_link' => '',
+  );
+  $export['resource_image__1_2_width__file_field_image'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'resource_image__1_3_width__file_field_image';
+  $file_display->weight = 0;
+  $file_display->status = TRUE;
+  $file_display->settings = array(
+    'image_style' => '536x_variable',
+    'image_link' => '',
+  );
+  $export['resource_image__1_3_width__file_field_image'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'resource_image__full_width__file_field_image';
+  $file_display->weight = 0;
+  $file_display->status = TRUE;
+  $file_display->settings = array(
+    'image_style' => '1630x_variable',
+    'image_link' => '',
+  );
+  $export['resource_image__full_width__file_field_image'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
   $file_display->name = 'resource_image__preview__file_field_image';
   $file_display->weight = 0;
   $file_display->status = TRUE;
@@ -1018,7 +1051,7 @@ function gsb_feature_file_types_file_default_displays() {
   $file_display->api_version = 1;
   $file_display->name = 'resource_image__teaser__file_field_image';
   $file_display->weight = 0;
-  $file_display->status = TRUE;
+  $file_display->status = FALSE;
   $file_display->settings = array(
     'image_style' => '',
     'image_link' => '',
@@ -1029,7 +1062,7 @@ function gsb_feature_file_types_file_default_displays() {
   $file_display->api_version = 1;
   $file_display->name = 'resource_pull_quote__default__resources_file_fields';
   $file_display->weight = 0;
-  $file_display->status = TRUE;
+  $file_display->status = FALSE;
   $file_display->settings = '';
   $export['resource_pull_quote__default__resources_file_fields'] = $file_display;
 

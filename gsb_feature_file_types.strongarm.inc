@@ -204,7 +204,7 @@ function gsb_feature_file_types_strongarm() {
   $strongarm->value = array(
     'view_modes' => array(
       'teaser' => array(
-        'custom_settings' => TRUE,
+        'custom_settings' => FALSE,
       ),
       'preview' => array(
         'custom_settings' => TRUE,
@@ -236,12 +236,50 @@ function gsb_feature_file_types_strongarm() {
       'original_image' => array(
         'custom_settings' => FALSE,
       ),
+      'full_width' => array(
+        'custom_settings' => TRUE,
+      ),
+      '1_2_width' => array(
+        'custom_settings' => TRUE,
+      ),
+      '1_3_width' => array(
+        'custom_settings' => TRUE,
+      ),
     ),
     'extra_fields' => array(
-      'form' => array(),
+      'form' => array(
+        'filename' => array(
+          'weight' => '-10',
+        ),
+        'preview' => array(
+          'weight' => '-5',
+        ),
+        'metatags' => array(
+          'weight' => '40',
+        ),
+        'redirect' => array(
+          'weight' => '30',
+        ),
+      ),
       'display' => array(
         'file' => array(
           'default' => array(
+            'weight' => '0',
+            'visible' => TRUE,
+          ),
+          'teaser' => array(
+            'weight' => '0',
+            'visible' => TRUE,
+          ),
+          'full_width' => array(
+            'weight' => '0',
+            'visible' => TRUE,
+          ),
+          '1_2_width' => array(
+            'weight' => '0',
+            'visible' => TRUE,
+          ),
+          '1_3_width' => array(
             'weight' => '0',
             'visible' => TRUE,
           ),
