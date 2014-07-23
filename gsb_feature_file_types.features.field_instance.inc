@@ -737,12 +737,9 @@ function gsb_feature_file_types_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'above',
-        'module' => 'link',
-        'settings' => array(
-          'conditions' => array(),
-        ),
-        'type' => 'link_default',
-        'weight' => 0,
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 1,
       ),
       'preview' => array(
         'label' => 'above',
@@ -793,61 +790,6 @@ function gsb_feature_file_types_field_default_field_instances() {
       ),
       'type' => 'link_field',
       'weight' => 41,
-    ),
-    'workbench_access_field' => 0,
-  );
-
-  // Exported field_instance: 'file-resource_twitter-field_twitter_widget_id'
-  $field_instances['file-resource_twitter-field_twitter_widget_id'] = array(
-    'bundle' => 'resource_twitter',
-    'custom_add_another' => '',
-    'custom_remove' => '',
-    'default_value' => NULL,
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'above',
-        'module' => 'text',
-        'settings' => array(
-          'conditions' => array(),
-        ),
-        'type' => 'text_default',
-        'weight' => 1,
-      ),
-      'preview' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-    ),
-    'ds_extras_field_template' => '',
-    'entity_type' => 'file',
-    'field_name' => 'field_twitter_widget_id',
-    'label' => 'Twitter Widget ID',
-    'required' => 0,
-    'settings' => array(
-      'custom_add_another' => '',
-      'custom_remove' => '',
-      'linkit' => array(
-        'enable' => 0,
-        'insert_plugin' => '',
-      ),
-      'text_processing' => 0,
-      'user_register_form' => FALSE,
-      'wysiwyg_override' => 1,
-    ),
-    'widget' => array(
-      'active' => 1,
-      'module' => 'text',
-      'settings' => array(
-        'maxlength_js' => 0,
-        'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
-        'size' => 60,
-      ),
-      'type' => 'text_textfield',
-      'weight' => 42,
     ),
     'workbench_access_field' => 0,
   );
@@ -992,7 +934,6 @@ function gsb_feature_file_types_field_default_field_instances() {
   t('Title Text');
   t('Title text attribute');
   t('Twitter URL');
-  t('Twitter Widget ID');
   t('YouTube Embed code');
 
   return $field_instances;

@@ -395,6 +395,15 @@ function gsb_feature_file_types_strongarm() {
       'original_image' => array(
         'custom_settings' => FALSE,
       ),
+      '1_2_width' => array(
+        'custom_settings' => FALSE,
+      ),
+      '1_3_width' => array(
+        'custom_settings' => FALSE,
+      ),
+      'full_width' => array(
+        'custom_settings' => FALSE,
+      ),
     ),
     'extra_fields' => array(
       'form' => array(
