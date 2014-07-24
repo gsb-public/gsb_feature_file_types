@@ -1007,7 +1007,7 @@ function gsb_feature_file_types_file_default_displays() {
   $file_display->api_version = 1;
   $file_display->name = 'resource_image__1_2_width__file_field_image';
   $file_display->weight = 0;
-  $file_display->status = TRUE;
+  $file_display->status = FALSE;
   $file_display->settings = array(
     'image_style' => '816x_variable',
     'image_link' => '',
@@ -1016,9 +1016,20 @@ function gsb_feature_file_types_file_default_displays() {
 
   $file_display = new stdClass();
   $file_display->api_version = 1;
-  $file_display->name = 'resource_image__1_3_width__file_field_image';
+  $file_display->name = 'resource_image__1_2_width__file_field_image_enlarge';
   $file_display->weight = 0;
   $file_display->status = TRUE;
+  $file_display->settings = array(
+    'image_style' => '816x_variable',
+    'image_link' => '',
+  );
+  $export['resource_image__1_2_width__file_field_image_enlarge'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'resource_image__1_3_width__file_field_image';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
   $file_display->settings = array(
     'image_style' => '536x_variable',
     'image_link' => '',
@@ -1027,14 +1038,36 @@ function gsb_feature_file_types_file_default_displays() {
 
   $file_display = new stdClass();
   $file_display->api_version = 1;
+  $file_display->name = 'resource_image__1_3_width__file_field_image_enlarge';
+  $file_display->weight = 0;
+  $file_display->status = TRUE;
+  $file_display->settings = array(
+    'image_style' => '536x_variable',
+    'image_link' => '',
+  );
+  $export['resource_image__1_3_width__file_field_image_enlarge'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
   $file_display->name = 'resource_image__full_width__file_field_image';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = array(
+    'image_style' => '1630x_variable',
+    'image_link' => '',
+  );
+  $export['resource_image__full_width__file_field_image'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'resource_image__full_width__file_field_image_enlarge';
   $file_display->weight = 0;
   $file_display->status = TRUE;
   $file_display->settings = array(
     'image_style' => '1630x_variable',
     'image_link' => '',
   );
-  $export['resource_image__full_width__file_field_image'] = $file_display;
+  $export['resource_image__full_width__file_field_image_enlarge'] = $file_display;
 
   $file_display = new stdClass();
   $file_display->api_version = 1;
