@@ -780,7 +780,7 @@ function gsb_feature_file_types_field_default_field_instances() {
     'entity_type' => 'file',
     'field_name' => 'field_description',
     'label' => 'Text',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'better_formats' => array(
         'allowed_formats' => array(
@@ -867,7 +867,7 @@ function gsb_feature_file_types_field_default_field_instances() {
     'entity_type' => 'file',
     'field_name' => 'field_quote_author',
     'label' => 'Quote Author',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'better_formats' => array(
         'allowed_formats' => array(
@@ -949,7 +949,7 @@ function gsb_feature_file_types_field_default_field_instances() {
     'entity_type' => 'file',
     'field_name' => 'field_twitter_url',
     'label' => 'Twitter URL',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'attributes' => array(
         'class' => '',
