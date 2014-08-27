@@ -25,13 +25,17 @@ function gsb_feature_file_types_media_token_to_markup_alter(&$element, $tag_info
       $show_caption = FALSE;
     }
     if ($show_caption) {
-      $title = $element['content']['file']['#title'];
-      $width = $element['content']['file']['#width'];
-      if ($width) {
-        $style = ' style="width:' . $width . 'px;"';
+      if (!emtpy($element['content']['file']['#title'])) {
+        $title = $element['content']['file']['#title'];        
+        if (!empty($title)) {
+          $element['content']['text'] = array('#markup' => '<div class="caption-text">' . $title . '</div>');
+        }
       }
-      if (!empty($title)) {
-        $element['content']['text'] = array('#markup' => '<div class="caption-text">' . $title . '</div>');
+      if (!emtpy($element['content']['file']['#width'])) {
+        $width = $element['content']['file']['#width'];
+        if ($width) {
+          $style = ' style="width:' . $width . 'px;"';
+        }
       }
     }
     $element['#prefix'] = '<div class="' . $alignment .'"' . $style . '>';
