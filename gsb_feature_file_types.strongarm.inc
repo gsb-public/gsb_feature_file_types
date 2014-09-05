@@ -471,6 +471,15 @@ function gsb_feature_file_types_strongarm() {
       'original_image' => array(
         'custom_settings' => FALSE,
       ),
+      '1_2_width' => array(
+        'custom_settings' => TRUE,
+      ),
+      '1_3_width' => array(
+        'custom_settings' => TRUE,
+      ),
+      'full_width' => array(
+        'custom_settings' => TRUE,
+      ),
     ),
     'extra_fields' => array(
       'form' => array(
@@ -490,6 +499,18 @@ function gsb_feature_file_types_strongarm() {
       'display' => array(
         'file' => array(
           'default' => array(
+            'weight' => '0',
+            'visible' => TRUE,
+          ),
+          '1_2_width' => array(
+            'weight' => '0',
+            'visible' => TRUE,
+          ),
+          '1_3_width' => array(
+            'weight' => '0',
+            'visible' => TRUE,
+          ),
+          'full_width' => array(
             'weight' => '0',
             'visible' => TRUE,
           ),

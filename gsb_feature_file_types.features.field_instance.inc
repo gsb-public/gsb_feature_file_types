@@ -1000,7 +1000,25 @@ function gsb_feature_file_types_field_default_field_instances() {
     'deleted' => 0,
     'description' => 'Please insert YouTube embed code here.',
     'display' => array(
+      '1_2_width' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 1,
+      ),
+      '1_3_width' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 1,
+      ),
       'default' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 1,
+      ),
+      'full_width' => array(
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
