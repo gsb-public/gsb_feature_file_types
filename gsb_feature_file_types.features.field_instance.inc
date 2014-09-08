@@ -751,6 +751,113 @@ function gsb_feature_file_types_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
+  // Exported field_instance: 'file-resource_image-field_file_image_alt_text'
+  $field_instances['file-resource_image-field_file_image_alt_text'] = array(
+    'bundle' => 'resource_image',
+    'custom_add_another' => '',
+    'custom_remove' => '',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      '1_2_width' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      '1_3_width' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(
+          'conditions' => array(),
+        ),
+        'type' => 'text_default',
+        'weight' => 3,
+      ),
+      'full_width' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'preview' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'ds_extras_field_template' => '',
+    'entity_type' => 'file',
+    'field_name' => 'field_file_image_alt_text',
+    'label' => 'Alt Text',
+    'required' => 0,
+    'settings' => array(
+      'better_formats' => array(
+        'allowed_formats' => array(
+          'full_html' => 'full_html',
+          'gsb_html_text' => 'gsb_html_text',
+          'gsb_wysiwyg_text' => 'gsb_wysiwyg_text',
+          'markdown' => 'markdown',
+          'plain_text' => 'plain_text',
+          'slideshow' => 'slideshow',
+        ),
+        'allowed_formats_toggle' => 0,
+        'default_order_toggle' => 0,
+        'default_order_wrapper' => array(
+          'formats' => array(
+            'full_html' => array(
+              'weight' => 1,
+            ),
+            'gsb_html_text' => array(
+              'weight' => -9,
+            ),
+            'gsb_wysiwyg_text' => array(
+              'weight' => -10,
+            ),
+            'markdown' => array(
+              'weight' => 0,
+            ),
+            'plain_text' => array(
+              'weight' => 10,
+            ),
+            'slideshow' => array(
+              'weight' => 0,
+            ),
+          ),
+        ),
+      ),
+      'custom_add_another' => '',
+      'custom_remove' => '',
+      'linkit' => array(
+        'enable' => 0,
+        'insert_plugin' => '',
+      ),
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+      'wysiwyg_override' => 1,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'maxlength_js' => 0,
+        'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 2,
+    ),
+    'workbench_access_field' => 0,
+  );
+
   // Exported field_instance: 'file-resource_pull_quote-field_description'
   $field_instances['file-resource_pull_quote-field_description'] = array(
     'bundle' => 'resource_pull_quote',
