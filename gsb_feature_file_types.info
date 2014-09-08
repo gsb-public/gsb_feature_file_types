@@ -181,6 +181,7 @@ features[file_display][] = resource_youtube__1_3_width__file_field_file_url_plai
 features[file_display][] = resource_youtube__1_3_width__file_field_gsb_field_formatter_document
 features[file_display][] = resource_youtube__1_3_width__file_field_gsb_field_formatter_download_link
 features[file_display][] = resource_youtube__1_3_width__file_field_gsb_field_formatter_image_or_video_popup
+features[file_display][] = resource_youtube__1_3_width__file_field_gsb_field_formatter_resources_video_image_popup
 features[file_display][] = resource_youtube__1_3_width__file_field_media_large_icon
 features[file_display][] = resource_youtube__1_3_width__gsb_media_center_file_formatter_document
 features[file_display][] = resource_youtube__1_3_width__media_vimeo_image

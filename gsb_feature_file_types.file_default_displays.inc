@@ -1371,11 +1371,21 @@ function gsb_feature_file_types_file_default_displays() {
   $file_display->api_version = 1;
   $file_display->name = 'resource_youtube__1_3_width__file_field_gsb_field_formatter_image_or_video_popup';
   $file_display->weight = 0;
-  $file_display->status = TRUE;
+  $file_display->status = FALSE;
   $file_display->settings = array(
     'file_view_mode' => 'preview',
   );
   $export['resource_youtube__1_3_width__file_field_gsb_field_formatter_image_or_video_popup'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'resource_youtube__1_3_width__file_field_gsb_field_formatter_resources_video_image_popup';
+  $file_display->weight = 0;
+  $file_display->status = TRUE;
+  $file_display->settings = array(
+    'image_style' => '270x158_video',
+  );
+  $export['resource_youtube__1_3_width__file_field_gsb_field_formatter_resources_video_image_popup'] = $file_display;
 
   $file_display = new stdClass();
   $file_display->api_version = 1;
