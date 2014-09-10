@@ -974,13 +974,14 @@ function gsb_feature_file_types_field_default_field_instances() {
     'entity_type' => 'file',
     'field_name' => 'field_quote_author',
     'label' => 'Quote Author',
-    'required' => 1,
+    'required' => 0,
     'settings' => array(
       'better_formats' => array(
         'allowed_formats' => array(
           'full_html' => 'full_html',
           'gsb_html_text' => 'gsb_html_text',
           'gsb_wysiwyg_text' => 'gsb_wysiwyg_text',
+          'markdown' => 0,
           'plain_text' => 'plain_text',
           'slideshow' => 'slideshow',
         ),
@@ -996,6 +997,9 @@ function gsb_feature_file_types_field_default_field_instances() {
             ),
             'gsb_wysiwyg_text' => array(
               'weight' => -10,
+            ),
+            'markdown' => array(
+              'weight' => 0,
             ),
             'plain_text' => array(
               'weight' => 10,
