@@ -245,6 +245,9 @@ function gsb_feature_file_types_strongarm() {
       '1_3_width' => array(
         'custom_settings' => TRUE,
       ),
+      'resource_browser_preview' => array(
+        'custom_settings' => TRUE,
+      ),
     ),
     'extra_fields' => array(
       'form' => array(
@@ -280,6 +283,10 @@ function gsb_feature_file_types_strongarm() {
             'visible' => TRUE,
           ),
           '1_3_width' => array(
+            'weight' => '0',
+            'visible' => TRUE,
+          ),
+          'resource_browser_preview' => array(
             'weight' => '0',
             'visible' => TRUE,
           ),
@@ -328,6 +335,18 @@ function gsb_feature_file_types_strongarm() {
       'original_image' => array(
         'custom_settings' => FALSE,
       ),
+      'resource_browser_preview' => array(
+        'custom_settings' => TRUE,
+      ),
+      '1_2_width' => array(
+        'custom_settings' => FALSE,
+      ),
+      '1_3_width' => array(
+        'custom_settings' => FALSE,
+      ),
+      'full_width' => array(
+        'custom_settings' => FALSE,
+      ),
     ),
     'extra_fields' => array(
       'form' => array(
@@ -349,6 +368,10 @@ function gsb_feature_file_types_strongarm() {
           'default' => array(
             'weight' => '2',
             'visible' => FALSE,
+          ),
+          'resource_browser_preview' => array(
+            'weight' => '0',
+            'visible' => TRUE,
           ),
         ),
       ),
@@ -404,6 +427,9 @@ function gsb_feature_file_types_strongarm() {
       'full_width' => array(
         'custom_settings' => FALSE,
       ),
+      'resource_browser_preview' => array(
+        'custom_settings' => TRUE,
+      ),
     ),
     'extra_fields' => array(
       'form' => array(
@@ -423,6 +449,10 @@ function gsb_feature_file_types_strongarm() {
       'display' => array(
         'file' => array(
           'default' => array(
+            'weight' => '0',
+            'visible' => TRUE,
+          ),
+          'resource_browser_preview' => array(
             'weight' => '0',
             'visible' => TRUE,
           ),
@@ -480,6 +510,9 @@ function gsb_feature_file_types_strongarm() {
       'full_width' => array(
         'custom_settings' => TRUE,
       ),
+      'resource_browser_preview' => array(
+        'custom_settings' => TRUE,
+      ),
     ),
     'extra_fields' => array(
       'form' => array(
@@ -511,6 +544,10 @@ function gsb_feature_file_types_strongarm() {
             'visible' => TRUE,
           ),
           'full_width' => array(
+            'weight' => '0',
+            'visible' => TRUE,
+          ),
+          'resource_browser_preview' => array(
             'weight' => '0',
             'visible' => TRUE,
           ),

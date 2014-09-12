@@ -342,5 +342,14 @@ function gsb_feature_file_types_ds_view_modes_info() {
   );
   $export['original_image'] = $ds_view_mode;
 
+  $ds_view_mode = new stdClass();
+  $ds_view_mode->api_version = 1;
+  $ds_view_mode->view_mode = 'resource_browser_preview';
+  $ds_view_mode->label = 'Resource Browser Preview';
+  $ds_view_mode->entities = array(
+    'file' => 'file',
+  );
+  $export['resource_browser_preview'] = $ds_view_mode;
+
   return $export;
 }

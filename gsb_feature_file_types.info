@@ -33,6 +33,7 @@ features[ds_view_modes][] = 1_2_width
 features[ds_view_modes][] = 1_3_width
 features[ds_view_modes][] = full_width
 features[ds_view_modes][] = original_image
+features[ds_view_modes][] = resource_browser_preview
 features[features_api][] = api:2
 features[field_instance][] = file-audio-field_sections
 features[field_instance][] = file-document-field_sections
