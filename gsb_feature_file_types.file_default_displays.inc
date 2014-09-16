@@ -1082,6 +1082,16 @@ function gsb_feature_file_types_file_default_displays() {
 
   $file_display = new stdClass();
   $file_display->api_version = 1;
+  $file_display->name = 'resource_image__resource_browser_preview__resources_resource_youtube_image';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = array(
+    'image_style' => '',
+  );
+  $export['resource_image__resource_browser_preview__resources_resource_youtube_image'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
   $file_display->name = 'resource_image__teaser__file_field_image';
   $file_display->weight = 0;
   $file_display->status = FALSE;
@@ -1111,6 +1121,16 @@ function gsb_feature_file_types_file_default_displays() {
 
   $file_display = new stdClass();
   $file_display->api_version = 1;
+  $file_display->name = 'resource_pull_quote__resource_browser_preview__resources_resource_youtube_image';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = array(
+    'image_style' => '',
+  );
+  $export['resource_pull_quote__resource_browser_preview__resources_resource_youtube_image'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
   $file_display->name = 'resource_twitter__default__resources_resource_twitter_widget';
   $file_display->weight = 0;
   $file_display->status = TRUE;
@@ -1126,6 +1146,16 @@ function gsb_feature_file_types_file_default_displays() {
     'image_style' => 'thumbnail',
   );
   $export['resource_twitter__preview__resources_resource_icon'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'resource_twitter__resource_browser_preview__resources_resource_youtube_image';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = array(
+    'image_style' => '',
+  );
+  $export['resource_twitter__resource_browser_preview__resources_resource_youtube_image'] = $file_display;
 
   $file_display = new stdClass();
   $file_display->api_version = 1;
@@ -1912,6 +1942,16 @@ function gsb_feature_file_types_file_default_displays() {
     'origin' => '',
   );
   $export['resource_youtube__preview__resources_resource_youtube_video'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'resource_youtube__resource_browser_preview__resources_resource_youtube_image';
+  $file_display->weight = 0;
+  $file_display->status = TRUE;
+  $file_display->settings = array(
+    'image_style' => 'resource_preview_image',
+  );
+  $export['resource_youtube__resource_browser_preview__resources_resource_youtube_image'] = $file_display;
 
   $file_display = new stdClass();
   $file_display->api_version = 1;
