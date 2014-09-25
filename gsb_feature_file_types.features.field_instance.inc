@@ -583,11 +583,11 @@ function gsb_feature_file_types_field_default_field_instances() {
       ),
       'default' => array(
         'label' => 'hidden',
-        'module' => 'text',
+        'module' => 'gsb_field_formatter',
         'settings' => array(
           'conditions' => array(),
         ),
-        'type' => 'text_default',
+        'type' => 'gsb_field_formatter_image_caption',
         'weight' => 1,
       ),
       'full_width' => array(
