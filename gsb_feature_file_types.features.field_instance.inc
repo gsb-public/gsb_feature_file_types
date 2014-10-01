@@ -583,11 +583,11 @@ function gsb_feature_file_types_field_default_field_instances() {
       ),
       'default' => array(
         'label' => 'hidden',
-        'module' => 'gsb_field_formatter',
+        'module' => 'text',
         'settings' => array(
           'conditions' => array(),
         ),
-        'type' => 'gsb_field_formatter_image_caption',
+        'type' => 'text_default',
         'weight' => 1,
       ),
       'full_width' => array(
@@ -632,9 +632,10 @@ function gsb_feature_file_types_field_default_field_instances() {
           'full_html' => 0,
           'gsb_html_text' => 0,
           'gsb_wysiwyg_text' => 0,
+          'image_resource_caption' => 'image_resource_caption',
           'markdown' => 0,
           'plain_text' => 0,
-          'slideshow' => 'slideshow',
+          'slideshow' => 0,
         ),
         'allowed_formats_toggle' => 1,
         'default_order_toggle' => 0,
@@ -648,6 +649,9 @@ function gsb_feature_file_types_field_default_field_instances() {
             ),
             'gsb_wysiwyg_text' => array(
               'weight' => -10,
+            ),
+            'image_resource_caption' => array(
+              'weight' => 0,
             ),
             'markdown' => array(
               'weight' => 0,
@@ -667,7 +671,7 @@ function gsb_feature_file_types_field_default_field_instances() {
         'enable' => 0,
         'insert_plugin' => '',
       ),
-      'text_processing' => 0,
+      'text_processing' => 1,
       'user_register_form' => FALSE,
       'wysiwyg_override' => 1,
     ),
