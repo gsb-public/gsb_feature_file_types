@@ -1007,7 +1007,7 @@ function gsb_feature_file_types_field_default_field_instances() {
     'ds_extras_field_template' => '',
     'entity_type' => 'file',
     'field_name' => 'field_quote_author',
-    'label' => 'Quote Author',
+    'label' => 'Attribution',
     'required' => 0,
     'settings' => array(
       'better_formats' => array(
