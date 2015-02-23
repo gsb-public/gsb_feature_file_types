@@ -928,7 +928,6 @@ function gsb_feature_file_types_file_default_displays() {
   $file_display->status = FALSE;
   $file_display->settings = array(
     'file_view_mode' => 'default',
-    'preview_view_mode' => 'preview',
   );
   $export['image__teaser__file_field_gsb_field_formatter_image_or_video_popup'] = $file_display;
 
@@ -938,7 +937,7 @@ function gsb_feature_file_types_file_default_displays() {
   $file_display->weight = 50;
   $file_display->status = TRUE;
   $file_display->settings = array(
-    'image_style' => 'medium',
+    'image_style' => '450x263',
     'image_link' => 'content',
   );
   $export['image__teaser__file_field_image'] = $file_display;
