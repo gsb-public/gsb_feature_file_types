@@ -382,6 +382,84 @@ function gsb_feature_file_types_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'field_bundle_settings_file__resource_sidebar';
+  $strongarm->value = array(
+    'view_modes' => array(
+      'teaser' => array(
+        'custom_settings' => FALSE,
+      ),
+      'preview' => array(
+        'custom_settings' => TRUE,
+      ),
+      'diptych' => array(
+        'custom_settings' => FALSE,
+      ),
+      'gsb_slideshow' => array(
+        'custom_settings' => FALSE,
+      ),
+      'ical' => array(
+        'custom_settings' => FALSE,
+      ),
+      'diff_standard' => array(
+        'custom_settings' => FALSE,
+      ),
+      'full' => array(
+        'custom_settings' => FALSE,
+      ),
+      'rss' => array(
+        'custom_settings' => FALSE,
+      ),
+      'wysiwyg_document' => array(
+        'custom_settings' => FALSE,
+      ),
+      'token' => array(
+        'custom_settings' => FALSE,
+      ),
+      '1_2_width' => array(
+        'custom_settings' => TRUE,
+      ),
+      '1_3_width' => array(
+        'custom_settings' => TRUE,
+      ),
+      'full_width' => array(
+        'custom_settings' => TRUE,
+      ),
+      'original_image' => array(
+        'custom_settings' => FALSE,
+      ),
+      'resource_browser_preview' => array(
+        'custom_settings' => FALSE,
+      ),
+    ),
+    'extra_fields' => array(
+      'form' => array(),
+      'display' => array(
+        'file' => array(
+          'default' => array(
+            'weight' => '0',
+            'visible' => TRUE,
+          ),
+          '1_2_width' => array(
+            'weight' => '0',
+            'visible' => TRUE,
+          ),
+          '1_3_width' => array(
+            'weight' => '0',
+            'visible' => TRUE,
+          ),
+          'full_width' => array(
+            'weight' => '0',
+            'visible' => TRUE,
+          ),
+        ),
+      ),
+    ),
+  );
+  $export['field_bundle_settings_file__resource_sidebar'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'field_bundle_settings_file__resource_twitter';
   $strongarm->value = array(
     'view_modes' => array(

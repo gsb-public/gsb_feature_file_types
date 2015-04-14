@@ -297,6 +297,34 @@ function gsb_feature_file_types_ds_layout_settings_info() {
   );
   $export['file|resource_pull_quote|default'] = $ds_layout;
 
+  $ds_layout = new stdClass();
+  $ds_layout->api_version = 1;
+  $ds_layout->id = 'file|resource_sidebar|default';
+  $ds_layout->entity_type = 'file';
+  $ds_layout->bundle = 'resource_sidebar';
+  $ds_layout->view_mode = 'default';
+  $ds_layout->layout = 'ds_1col';
+  $ds_layout->settings = array(
+    'regions' => array(
+      'ds_content' => array(
+        0 => 'file',
+      ),
+    ),
+    'fields' => array(
+      'file' => 'ds_content',
+    ),
+    'classes' => array(),
+    'wrappers' => array(
+      'ds_content' => 'div',
+    ),
+    'layout_wrapper' => 'div',
+    'layout_attributes' => '',
+    'layout_attributes_merge' => 1,
+    'layout_link_attribute' => '',
+    'layout_link_custom' => '',
+  );
+  $export['file|resource_sidebar|default'] = $ds_layout;
+
   return $export;
 }
 

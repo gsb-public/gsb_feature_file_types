@@ -35,6 +35,15 @@ function gsb_feature_file_types_file_default_types() {
   $file_type = new stdClass();
   $file_type->disabled = FALSE; /* Edit this to true to make a default file_type disabled initially */
   $file_type->api_version = 1;
+  $file_type->type = 'resource_sidebar';
+  $file_type->label = 'Resource Sidebar';
+  $file_type->description = '';
+  $file_type->mimetypes = array();
+  $export['resource_sidebar'] = $file_type;
+
+  $file_type = new stdClass();
+  $file_type->disabled = FALSE; /* Edit this to true to make a default file_type disabled initially */
+  $file_type->api_version = 1;
   $file_type->type = 'resource_twitter';
   $file_type->label = 'Resource Twitter';
   $file_type->description = '';
