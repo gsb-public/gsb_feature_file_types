@@ -428,7 +428,7 @@ function gsb_feature_file_types_strongarm() {
         'custom_settings' => FALSE,
       ),
       'resource_browser_preview' => array(
-        'custom_settings' => FALSE,
+        'custom_settings' => TRUE,
       ),
     ),
     'extra_fields' => array(
@@ -449,18 +449,26 @@ function gsb_feature_file_types_strongarm() {
       'display' => array(
         'file' => array(
           'default' => array(
-            'weight' => '0',
+            'weight' => '2',
             'visible' => TRUE,
           ),
           '1_2_width' => array(
-            'weight' => '0',
+            'weight' => '2',
             'visible' => TRUE,
           ),
           '1_3_width' => array(
-            'weight' => '0',
+            'weight' => '2',
             'visible' => TRUE,
           ),
           'full_width' => array(
+            'weight' => '2',
+            'visible' => TRUE,
+          ),
+          'preview' => array(
+            'weight' => '0',
+            'visible' => TRUE,
+          ),
+          'resource_browser_preview' => array(
             'weight' => '0',
             'visible' => TRUE,
           ),

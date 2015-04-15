@@ -307,11 +307,21 @@ function gsb_feature_file_types_ds_layout_settings_info() {
   $ds_layout->settings = array(
     'regions' => array(
       'ds_content' => array(
-        0 => 'file',
+        0 => 'field_title',
+        1 => 'field_editorial_summary',
+        2 => 'file',
+        3 => 'field_description',
+        4 => 'field_body',
+        5 => 'field_quote_author',
       ),
     ),
     'fields' => array(
+      'field_title' => 'ds_content',
+      'field_editorial_summary' => 'ds_content',
       'file' => 'ds_content',
+      'field_description' => 'ds_content',
+      'field_body' => 'ds_content',
+      'field_quote_author' => 'ds_content',
     ),
     'classes' => array(),
     'wrappers' => array(
