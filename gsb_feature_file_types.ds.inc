@@ -181,6 +181,19 @@ function gsb_feature_file_types_ds_field_settings_info() {
   $ds_fieldsetting->bundle = 'resource_sidebar';
   $ds_fieldsetting->view_mode = '1_3_width';
   $ds_fieldsetting->settings = array(
+    'field_body' => array(
+      'formatter_settings' => array(
+        'ft' => array(
+          'func' => 'theme_ds_field_expert',
+          'ow' => TRUE,
+          'ow-el' => 'p',
+          'ow-cl' => '',
+          'ow-def-cl' => FALSE,
+          'ow-at' => '',
+          'ow-def-at' => FALSE,
+        ),
+      ),
+    ),
     'field_editorial_summary' => array(
       'formatter_settings' => array(
         'ft' => array(
@@ -204,6 +217,19 @@ function gsb_feature_file_types_ds_field_settings_info() {
   $ds_fieldsetting->bundle = 'resource_sidebar';
   $ds_fieldsetting->view_mode = 'default';
   $ds_fieldsetting->settings = array(
+    'field_body' => array(
+      'formatter_settings' => array(
+        'ft' => array(
+          'func' => 'theme_ds_field_expert',
+          'ow' => TRUE,
+          'ow-el' => 'p',
+          'ow-cl' => '',
+          'ow-def-cl' => FALSE,
+          'ow-at' => '',
+          'ow-def-at' => FALSE,
+        ),
+      ),
+    ),
     'field_editorial_summary' => array(
       'formatter_settings' => array(
         'ft' => array(
@@ -227,6 +253,19 @@ function gsb_feature_file_types_ds_field_settings_info() {
   $ds_fieldsetting->bundle = 'resource_sidebar';
   $ds_fieldsetting->view_mode = 'full_width';
   $ds_fieldsetting->settings = array(
+    'field_body' => array(
+      'formatter_settings' => array(
+        'ft' => array(
+          'func' => 'theme_ds_field_expert',
+          'ow' => TRUE,
+          'ow-el' => 'p',
+          'ow-cl' => '',
+          'ow-def-cl' => FALSE,
+          'ow-at' => '',
+          'ow-def-at' => FALSE,
+        ),
+      ),
+    ),
     'field_editorial_summary' => array(
       'formatter_settings' => array(
         'ft' => array(
