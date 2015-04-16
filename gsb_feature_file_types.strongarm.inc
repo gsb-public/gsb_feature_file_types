@@ -440,29 +440,29 @@ function gsb_feature_file_types_strongarm() {
           'weight' => '1',
         ),
         'metatags' => array(
-          'weight' => '3',
+          'weight' => '9',
         ),
         'redirect' => array(
-          'weight' => '2',
+          'weight' => '8',
         ),
       ),
       'display' => array(
         'file' => array(
           'default' => array(
-            'weight' => '2',
-            'visible' => TRUE,
+            'weight' => '6',
+            'visible' => FALSE,
           ),
           '1_2_width' => array(
-            'weight' => '2',
-            'visible' => TRUE,
+            'weight' => '6',
+            'visible' => FALSE,
           ),
           '1_3_width' => array(
-            'weight' => '2',
-            'visible' => TRUE,
+            'weight' => '6',
+            'visible' => FALSE,
           ),
           'full_width' => array(
-            'weight' => '2',
-            'visible' => TRUE,
+            'weight' => '6',
+            'visible' => FALSE,
           ),
           'preview' => array(
             'weight' => '0',

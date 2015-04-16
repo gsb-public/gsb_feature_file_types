@@ -138,6 +138,111 @@ function gsb_feature_file_types_ds_field_settings_info() {
   );
   $export['file|resource_pull_quote|default'] = $ds_fieldsetting;
 
+  $ds_fieldsetting = new stdClass();
+  $ds_fieldsetting->api_version = 1;
+  $ds_fieldsetting->id = 'file|resource_sidebar|1_2_width';
+  $ds_fieldsetting->entity_type = 'file';
+  $ds_fieldsetting->bundle = 'resource_sidebar';
+  $ds_fieldsetting->view_mode = '1_2_width';
+  $ds_fieldsetting->settings = array(
+    'field_editorial_summary' => array(
+      'formatter_settings' => array(
+        'ft' => array(
+          'func' => 'theme_ds_field_expert',
+          'ow' => TRUE,
+          'ow-el' => 'p',
+          'ow-cl' => '',
+          'ow-def-cl' => FALSE,
+          'ow-at' => '',
+          'ow-def-at' => FALSE,
+        ),
+      ),
+    ),
+    'field_body' => array(
+      'formatter_settings' => array(
+        'ft' => array(
+          'func' => 'theme_ds_field_expert',
+          'ow' => TRUE,
+          'ow-el' => 'p',
+          'ow-cl' => '',
+          'ow-def-cl' => FALSE,
+          'ow-at' => '',
+          'ow-def-at' => FALSE,
+        ),
+      ),
+    ),
+  );
+  $export['file|resource_sidebar|1_2_width'] = $ds_fieldsetting;
+
+  $ds_fieldsetting = new stdClass();
+  $ds_fieldsetting->api_version = 1;
+  $ds_fieldsetting->id = 'file|resource_sidebar|1_3_width';
+  $ds_fieldsetting->entity_type = 'file';
+  $ds_fieldsetting->bundle = 'resource_sidebar';
+  $ds_fieldsetting->view_mode = '1_3_width';
+  $ds_fieldsetting->settings = array(
+    'field_editorial_summary' => array(
+      'formatter_settings' => array(
+        'ft' => array(
+          'func' => 'theme_ds_field_expert',
+          'ow' => TRUE,
+          'ow-el' => 'p',
+          'ow-cl' => '',
+          'ow-def-cl' => FALSE,
+          'ow-at' => '',
+          'ow-def-at' => FALSE,
+        ),
+      ),
+    ),
+  );
+  $export['file|resource_sidebar|1_3_width'] = $ds_fieldsetting;
+
+  $ds_fieldsetting = new stdClass();
+  $ds_fieldsetting->api_version = 1;
+  $ds_fieldsetting->id = 'file|resource_sidebar|default';
+  $ds_fieldsetting->entity_type = 'file';
+  $ds_fieldsetting->bundle = 'resource_sidebar';
+  $ds_fieldsetting->view_mode = 'default';
+  $ds_fieldsetting->settings = array(
+    'field_editorial_summary' => array(
+      'formatter_settings' => array(
+        'ft' => array(
+          'func' => 'theme_ds_field_expert',
+          'ow' => TRUE,
+          'ow-el' => 'p',
+          'ow-cl' => '',
+          'ow-def-cl' => FALSE,
+          'ow-at' => '',
+          'ow-def-at' => FALSE,
+        ),
+      ),
+    ),
+  );
+  $export['file|resource_sidebar|default'] = $ds_fieldsetting;
+
+  $ds_fieldsetting = new stdClass();
+  $ds_fieldsetting->api_version = 1;
+  $ds_fieldsetting->id = 'file|resource_sidebar|full_width';
+  $ds_fieldsetting->entity_type = 'file';
+  $ds_fieldsetting->bundle = 'resource_sidebar';
+  $ds_fieldsetting->view_mode = 'full_width';
+  $ds_fieldsetting->settings = array(
+    'field_editorial_summary' => array(
+      'formatter_settings' => array(
+        'ft' => array(
+          'func' => 'theme_ds_field_expert',
+          'ow' => TRUE,
+          'ow-el' => 'p',
+          'ow-cl' => '',
+          'ow-def-cl' => FALSE,
+          'ow-at' => '',
+          'ow-def-at' => FALSE,
+        ),
+      ),
+    ),
+  );
+  $export['file|resource_sidebar|full_width'] = $ds_fieldsetting;
+
   return $export;
 }
 
@@ -299,6 +404,82 @@ function gsb_feature_file_types_ds_layout_settings_info() {
 
   $ds_layout = new stdClass();
   $ds_layout->api_version = 1;
+  $ds_layout->id = 'file|resource_sidebar|1_2_width';
+  $ds_layout->entity_type = 'file';
+  $ds_layout->bundle = 'resource_sidebar';
+  $ds_layout->view_mode = '1_2_width';
+  $ds_layout->layout = 'ds_1col';
+  $ds_layout->settings = array(
+    'regions' => array(
+      'ds_content' => array(
+        0 => 'field_title',
+        1 => 'field_editorial_summary',
+        2 => 'field_image_single_public',
+        3 => 'field_description',
+        4 => 'field_body',
+        5 => 'field_quote_author',
+      ),
+    ),
+    'fields' => array(
+      'field_title' => 'ds_content',
+      'field_editorial_summary' => 'ds_content',
+      'field_image_single_public' => 'ds_content',
+      'field_description' => 'ds_content',
+      'field_body' => 'ds_content',
+      'field_quote_author' => 'ds_content',
+    ),
+    'classes' => array(),
+    'wrappers' => array(
+      'ds_content' => 'div',
+    ),
+    'layout_wrapper' => 'div',
+    'layout_attributes' => '',
+    'layout_attributes_merge' => 1,
+    'layout_link_attribute' => '',
+    'layout_link_custom' => '',
+  );
+  $export['file|resource_sidebar|1_2_width'] = $ds_layout;
+
+  $ds_layout = new stdClass();
+  $ds_layout->api_version = 1;
+  $ds_layout->id = 'file|resource_sidebar|1_3_width';
+  $ds_layout->entity_type = 'file';
+  $ds_layout->bundle = 'resource_sidebar';
+  $ds_layout->view_mode = '1_3_width';
+  $ds_layout->layout = 'ds_1col';
+  $ds_layout->settings = array(
+    'regions' => array(
+      'ds_content' => array(
+        0 => 'field_title',
+        1 => 'field_editorial_summary',
+        2 => 'field_image_single_public',
+        3 => 'field_description',
+        4 => 'field_body',
+        5 => 'field_quote_author',
+      ),
+    ),
+    'fields' => array(
+      'field_title' => 'ds_content',
+      'field_editorial_summary' => 'ds_content',
+      'field_image_single_public' => 'ds_content',
+      'field_description' => 'ds_content',
+      'field_body' => 'ds_content',
+      'field_quote_author' => 'ds_content',
+    ),
+    'classes' => array(),
+    'wrappers' => array(
+      'ds_content' => 'div',
+    ),
+    'layout_wrapper' => 'div',
+    'layout_attributes' => '',
+    'layout_attributes_merge' => 1,
+    'layout_link_attribute' => '',
+    'layout_link_custom' => '',
+  );
+  $export['file|resource_sidebar|1_3_width'] = $ds_layout;
+
+  $ds_layout = new stdClass();
+  $ds_layout->api_version = 1;
   $ds_layout->id = 'file|resource_sidebar|default';
   $ds_layout->entity_type = 'file';
   $ds_layout->bundle = 'resource_sidebar';
@@ -309,7 +490,7 @@ function gsb_feature_file_types_ds_layout_settings_info() {
       'ds_content' => array(
         0 => 'field_title',
         1 => 'field_editorial_summary',
-        2 => 'file',
+        2 => 'field_image_single_public',
         3 => 'field_description',
         4 => 'field_body',
         5 => 'field_quote_author',
@@ -318,7 +499,7 @@ function gsb_feature_file_types_ds_layout_settings_info() {
     'fields' => array(
       'field_title' => 'ds_content',
       'field_editorial_summary' => 'ds_content',
-      'file' => 'ds_content',
+      'field_image_single_public' => 'ds_content',
       'field_description' => 'ds_content',
       'field_body' => 'ds_content',
       'field_quote_author' => 'ds_content',
@@ -334,6 +515,44 @@ function gsb_feature_file_types_ds_layout_settings_info() {
     'layout_link_custom' => '',
   );
   $export['file|resource_sidebar|default'] = $ds_layout;
+
+  $ds_layout = new stdClass();
+  $ds_layout->api_version = 1;
+  $ds_layout->id = 'file|resource_sidebar|full_width';
+  $ds_layout->entity_type = 'file';
+  $ds_layout->bundle = 'resource_sidebar';
+  $ds_layout->view_mode = 'full_width';
+  $ds_layout->layout = 'ds_1col';
+  $ds_layout->settings = array(
+    'regions' => array(
+      'ds_content' => array(
+        0 => 'field_title',
+        1 => 'field_editorial_summary',
+        2 => 'field_image_single_public',
+        3 => 'field_description',
+        4 => 'field_body',
+        5 => 'field_quote_author',
+      ),
+    ),
+    'fields' => array(
+      'field_title' => 'ds_content',
+      'field_editorial_summary' => 'ds_content',
+      'field_image_single_public' => 'ds_content',
+      'field_description' => 'ds_content',
+      'field_body' => 'ds_content',
+      'field_quote_author' => 'ds_content',
+    ),
+    'classes' => array(),
+    'wrappers' => array(
+      'ds_content' => 'div',
+    ),
+    'layout_wrapper' => 'div',
+    'layout_attributes' => '',
+    'layout_attributes_merge' => 1,
+    'layout_link_attribute' => '',
+    'layout_link_custom' => '',
+  );
+  $export['file|resource_sidebar|full_width'] = $ds_layout;
 
   return $export;
 }
