@@ -1111,7 +1111,7 @@ function gsb_feature_file_types_field_default_field_instances() {
           'conditions' => array(),
         ),
         'type' => 'text_default',
-        'weight' => 4,
+        'weight' => 5,
       ),
       'preview' => array(
         'label' => 'above',
@@ -1247,7 +1247,7 @@ function gsb_feature_file_types_field_default_field_instances() {
           'conditions' => array(),
         ),
         'type' => 'text_default',
-        'weight' => 3,
+        'weight' => 4,
       ),
       'preview' => array(
         'label' => 'above',
@@ -1478,24 +1478,24 @@ function gsb_feature_file_types_field_default_field_instances() {
     'display' => array(
       '1_2_width' => array(
         'label' => 'hidden',
-        'module' => 'gsb_field_formatter',
+        'module' => 'image',
         'settings' => array(
           'conditions' => array(),
           'image_link' => '',
           'image_style' => '',
         ),
-        'type' => 'gsb_field_formatter_image',
+        'type' => 'image',
         'weight' => 2,
       ),
       '1_3_width' => array(
         'label' => 'hidden',
-        'module' => 'gsb_field_formatter',
+        'module' => 'image',
         'settings' => array(
           'conditions' => array(),
           'image_link' => '',
           'image_style' => '',
         ),
-        'type' => 'gsb_field_formatter_image',
+        'type' => 'image',
         'weight' => 2,
       ),
       'default' => array(
@@ -1511,14 +1511,14 @@ function gsb_feature_file_types_field_default_field_instances() {
       ),
       'full_width' => array(
         'label' => 'hidden',
-        'module' => 'gsb_field_formatter',
+        'module' => 'image',
         'settings' => array(
           'conditions' => array(),
           'image_link' => '',
           'image_style' => '',
         ),
-        'type' => 'gsb_field_formatter_image',
-        'weight' => 2,
+        'type' => 'image',
+        'weight' => 3,
       ),
       'preview' => array(
         'label' => 'above',
@@ -1628,7 +1628,7 @@ function gsb_feature_file_types_field_default_field_instances() {
           'conditions' => array(),
         ),
         'type' => 'text_default',
-        'weight' => 5,
+        'weight' => 6,
       ),
       'preview' => array(
         'label' => 'above',

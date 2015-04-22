@@ -461,7 +461,7 @@ function gsb_feature_file_types_strongarm() {
             'visible' => FALSE,
           ),
           'full_width' => array(
-            'weight' => '6',
+            'weight' => '7',
             'visible' => FALSE,
           ),
           'preview' => array(
