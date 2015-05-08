@@ -481,6 +481,101 @@ function gsb_feature_file_types_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'field_bundle_settings_file__resource_soundcloud';
+  $strongarm->value = array(
+    'view_modes' => array(
+      '1_2_width' => array(
+        'custom_settings' => TRUE,
+      ),
+      '1_3_width' => array(
+        'custom_settings' => TRUE,
+      ),
+      'full_width' => array(
+        'custom_settings' => TRUE,
+      ),
+      'resource_browser_preview' => array(
+        'custom_settings' => TRUE,
+      ),
+      'ical' => array(
+        'custom_settings' => FALSE,
+      ),
+      'diff_standard' => array(
+        'custom_settings' => FALSE,
+      ),
+      'teaser' => array(
+        'custom_settings' => FALSE,
+      ),
+      'full' => array(
+        'custom_settings' => FALSE,
+      ),
+      'preview' => array(
+        'custom_settings' => FALSE,
+      ),
+      'rss' => array(
+        'custom_settings' => FALSE,
+      ),
+      'diptych' => array(
+        'custom_settings' => FALSE,
+      ),
+      'gsb_slideshow' => array(
+        'custom_settings' => FALSE,
+      ),
+      'wysiwyg_document' => array(
+        'custom_settings' => FALSE,
+      ),
+      'token' => array(
+        'custom_settings' => FALSE,
+      ),
+      'original_image' => array(
+        'custom_settings' => FALSE,
+      ),
+    ),
+    'extra_fields' => array(
+      'form' => array(
+        'filename' => array(
+          'weight' => '-10',
+        ),
+        'preview' => array(
+          'weight' => '-5',
+        ),
+        'metatags' => array(
+          'weight' => '40',
+        ),
+        'redirect' => array(
+          'weight' => '30',
+        ),
+      ),
+      'display' => array(
+        'file' => array(
+          'default' => array(
+            'weight' => '0',
+            'visible' => TRUE,
+          ),
+          '1_2_width' => array(
+            'weight' => '0',
+            'visible' => TRUE,
+          ),
+          '1_3_width' => array(
+            'weight' => '0',
+            'visible' => TRUE,
+          ),
+          'full_width' => array(
+            'weight' => '0',
+            'visible' => TRUE,
+          ),
+          'resource_browser_preview' => array(
+            'weight' => '0',
+            'visible' => TRUE,
+          ),
+        ),
+      ),
+    ),
+  );
+  $export['field_bundle_settings_file__resource_soundcloud'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'field_bundle_settings_file__resource_twitter';
   $strongarm->value = array(
     'view_modes' => array(
