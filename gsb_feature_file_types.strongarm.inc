@@ -509,7 +509,7 @@ function gsb_feature_file_types_strongarm() {
         'custom_settings' => FALSE,
       ),
       'preview' => array(
-        'custom_settings' => FALSE,
+        'custom_settings' => TRUE,
       ),
       'rss' => array(
         'custom_settings' => FALSE,
@@ -564,6 +564,10 @@ function gsb_feature_file_types_strongarm() {
             'visible' => TRUE,
           ),
           'resource_browser_preview' => array(
+            'weight' => '0',
+            'visible' => TRUE,
+          ),
+          'preview' => array(
             'weight' => '0',
             'visible' => TRUE,
           ),

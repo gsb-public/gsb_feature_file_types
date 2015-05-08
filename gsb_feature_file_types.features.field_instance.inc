@@ -1881,6 +1881,15 @@ function gsb_feature_file_types_field_default_field_instances() {
         'type' => 'hidden',
         'weight' => 0,
       ),
+      'preview' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(
+          'conditions' => array(),
+        ),
+        'type' => 'text_default',
+        'weight' => 2,
+      ),
       'resource_browser_preview' => array(
         'label' => 'above',
         'settings' => array(),
