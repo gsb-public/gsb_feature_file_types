@@ -2121,14 +2121,16 @@ function gsb_feature_file_types_file_default_displays() {
   $file_display->weight = 0;
   $file_display->status = TRUE;
   $file_display->settings = array(
+    'soundcloud_widget' => 'Classic',
     'width' => '100%',
     'height' => '166',
     'color' => 'ff5500',
     'auto_play' => 0,
-    'hide_related' => 0,
-    'show_comments' => 1,
-    'show_user' => 1,
+    'hide_related' => 1,
+    'show_comments' => 0,
+    'show_user' => 0,
     'show_reposts' => 0,
+    'visual' => '1',
   );
   $export['resource_soundcloud__1_2_width__resources_resource_soundcloud'] = $file_display;
 
@@ -2336,12 +2338,14 @@ function gsb_feature_file_types_file_default_displays() {
   $file_display->weight = 0;
   $file_display->status = TRUE;
   $file_display->settings = array(
+    'soundcloud_widget' => 'Visual',
     'width' => '100%',
     'height' => '450',
+    'color' => '',
     'auto_play' => 0,
-    'hide_related' => 0,
-    'show_comments' => 1,
-    'show_user' => 1,
+    'hide_related' => 1,
+    'show_comments' => 0,
+    'show_user' => 0,
     'show_reposts' => 0,
     'visual' => '1',
   );
