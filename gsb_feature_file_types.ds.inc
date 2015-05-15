@@ -848,6 +848,15 @@ function gsb_feature_file_types_ds_view_modes_info() {
 
   $ds_view_mode = new stdClass();
   $ds_view_mode->api_version = 1;
+  $ds_view_mode->view_mode = 'large_cover';
+  $ds_view_mode->label = 'Large Cover';
+  $ds_view_mode->entities = array(
+    'file' => 'file',
+  );
+  $export['large_cover'] = $ds_view_mode;
+
+  $ds_view_mode = new stdClass();
+  $ds_view_mode->api_version = 1;
   $ds_view_mode->view_mode = 'original_image';
   $ds_view_mode->label = 'Original Image';
   $ds_view_mode->entities = array(

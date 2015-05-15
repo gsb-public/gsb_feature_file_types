@@ -529,6 +529,9 @@ function gsb_feature_file_types_strongarm() {
       'original_image' => array(
         'custom_settings' => FALSE,
       ),
+      'large_cover' => array(
+        'custom_settings' => TRUE,
+      ),
     ),
     'extra_fields' => array(
       'form' => array(
@@ -568,6 +571,10 @@ function gsb_feature_file_types_strongarm() {
             'visible' => TRUE,
           ),
           'preview' => array(
+            'weight' => '0',
+            'visible' => TRUE,
+          ),
+          'large_cover' => array(
             'weight' => '0',
             'visible' => TRUE,
           ),
