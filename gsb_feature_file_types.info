@@ -33,6 +33,7 @@ features[ds_field_settings][] = file|resource_sidebar|1_2_width
 features[ds_field_settings][] = file|resource_sidebar|1_3_width
 features[ds_field_settings][] = file|resource_sidebar|default
 features[ds_field_settings][] = file|resource_sidebar|full_width
+features[ds_fields][] = text_equivalent_link
 features[ds_layout_settings][] = file|resource_image|1_2_width
 features[ds_layout_settings][] = file|resource_image|1_3_width
 features[ds_layout_settings][] = file|resource_image|default
