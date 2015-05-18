@@ -248,20 +248,23 @@ function gsb_feature_file_types_strongarm() {
       'resource_browser_preview' => array(
         'custom_settings' => TRUE,
       ),
+      'large_cover' => array(
+        'custom_settings' => FALSE,
+      ),
     ),
     'extra_fields' => array(
       'form' => array(
         'filename' => array(
-          'weight' => '-10',
+          'weight' => '0',
         ),
         'preview' => array(
-          'weight' => '-5',
+          'weight' => '1',
         ),
         'metatags' => array(
-          'weight' => '40',
+          'weight' => '4',
         ),
         'redirect' => array(
-          'weight' => '30',
+          'weight' => '3',
         ),
       ),
       'display' => array(
