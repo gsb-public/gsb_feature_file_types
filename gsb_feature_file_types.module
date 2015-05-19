@@ -7,6 +7,53 @@
 include_once 'gsb_feature_file_types.features.inc';
 
 /**
+ * Implements hook_menu().
+ */
+function gsb_feature_file_types_menu() {
+  $items = array();
+  $items['text-equivalent/%file'] = array(
+    'description' => 'View Text Equivalent.',
+    'page callback' => 'gsb_feature_file_types_view_text_equivalent',
+    'page arguments' => array(1),
+    'access arguments' => array('access content'),
+  );
+  return $items;
+}
+
+
+function gsb_feature_file_types_view_text_equivalent($file) {
+  // add CSS
+  drupal_add_css(drupal_get_path('theme', 'gsb_theme') . '/css/style.css');
+  return $file->field_text_equivalent['und'][0]['value'];
+}
+
+/**
+ * Implements hook_custom_theme()
+ */
+function gsb_feature_file_types_custom_theme() {
+  // set the theme to starl
+  $args = explode('/', current_path());
+  if ($args[0] == 'text-equivalent') {
+    return 'stark';
+  }
+}
+
+/**
+ * Implements hook_page_alter()
+ */
+function gsb_feature_file_types_page_alter(&$page) {
+  // hide all the region except content for clean html
+  $args = explode('/', current_path());
+  if ($args[0] == 'text-equivalent') {
+    foreach (element_children($page) as $region) {
+      if ($region != 'content') {
+        unset($page[$region]);
+      }
+    }
+  }
+}
+
+/**
  * Implements hook_ds_pre_render_alter()
  * Alter the output generated to add a call-quotes class if
  *   it is a resource_pull_quote and field_quote_author has a value
