@@ -548,7 +548,6 @@ features[file_type][] = resource_soundcloud
 features[file_type][] = resource_twitter
 features[file_type][] = resource_youtube
 features[filter][] = image_resource_caption
-features[filter][] = image_text_equivalent
 features[variable][] = field_bundle_settings_file__audio
 features[variable][] = field_bundle_settings_file__document
 features[variable][] = field_bundle_settings_file__image
