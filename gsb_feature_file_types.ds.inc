@@ -25,7 +25,14 @@ function gsb_feature_file_types_ds_field_settings_info() {
         'ft' => array(
           'func' => 'theme_ds_field_expert',
         ),
-        'conditions' => array(),
+        'conditions' => array(
+          0 => array(
+            'condition' => 'hide_if_empty',
+            'configuration' => array(
+              'target' => 'field_text_equivalent',
+            ),
+          ),
+        ),
       ),
     ),
     'field_body' => array(
@@ -55,6 +62,17 @@ function gsb_feature_file_types_ds_field_settings_info() {
       'weight' => '0',
       'label' => 'hidden',
       'format' => 'default',
+      'formatter_settings' => array(
+        'ft' => array(),
+        'conditions' => array(
+          0 => array(
+            'condition' => 'hide_if_empty',
+            'configuration' => array(
+              'target' => 'field_text_equivalent',
+            ),
+          ),
+        ),
+      ),
     ),
     'field_body' => array(
       'formatter_settings' => array(
@@ -84,15 +102,7 @@ function gsb_feature_file_types_ds_field_settings_info() {
       'label' => 'hidden',
       'format' => 'default',
       'formatter_settings' => array(
-        'ft' => array(
-          'func' => 'theme_ds_field_expert',
-          'ow' => TRUE,
-          'ow-el' => 'div',
-          'ow-cl' => '',
-          'ow-def-cl' => TRUE,
-          'ow-at' => '',
-          'ow-def-at' => FALSE,
-        ),
+        'ft' => array(),
         'conditions' => array(
           0 => array(
             'condition' => 'hide_if_empty',
@@ -134,7 +144,14 @@ function gsb_feature_file_types_ds_field_settings_info() {
         'ft' => array(
           'func' => 'theme_ds_field_expert',
         ),
-        'conditions' => array(),
+        'conditions' => array(
+          0 => array(
+            'condition' => 'hide_if_empty',
+            'configuration' => array(
+              'target' => 'field_text_equivalent',
+            ),
+          ),
+        ),
       ),
     ),
     'field_body' => array(
