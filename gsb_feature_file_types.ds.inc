@@ -25,14 +25,7 @@ function gsb_feature_file_types_ds_field_settings_info() {
         'ft' => array(
           'func' => 'theme_ds_field_expert',
         ),
-        'conditions' => array(
-          0 => array(
-            'condition' => 'hide_if_empty',
-            'configuration' => array(
-              'target' => 'field_text_equivalent',
-            ),
-          ),
-        ),
+        'conditions' => array(),
       ),
     ),
     'field_body' => array(
@@ -64,14 +57,7 @@ function gsb_feature_file_types_ds_field_settings_info() {
       'format' => 'default',
       'formatter_settings' => array(
         'ft' => array(),
-        'conditions' => array(
-          0 => array(
-            'condition' => 'hide_if_empty',
-            'configuration' => array(
-              'target' => 'field_text_equivalent',
-            ),
-          ),
-        ),
+        'conditions' => array(),
       ),
     ),
     'field_body' => array(
@@ -102,15 +88,10 @@ function gsb_feature_file_types_ds_field_settings_info() {
       'label' => 'hidden',
       'format' => 'default',
       'formatter_settings' => array(
-        'ft' => array(),
-        'conditions' => array(
-          0 => array(
-            'condition' => 'hide_if_empty',
-            'configuration' => array(
-              'target' => 'field_text_equivalent',
-            ),
-          ),
+        'ft' => array(
+          'func' => 'theme_ds_field_expert',
         ),
+        'conditions' => array(),
       ),
     ),
     'field_body' => array(
@@ -144,14 +125,7 @@ function gsb_feature_file_types_ds_field_settings_info() {
         'ft' => array(
           'func' => 'theme_ds_field_expert',
         ),
-        'conditions' => array(
-          0 => array(
-            'condition' => 'hide_if_empty',
-            'configuration' => array(
-              'target' => 'field_text_equivalent',
-            ),
-          ),
-        ),
+        'conditions' => array(),
       ),
     ),
     'field_body' => array(

@@ -22,9 +22,10 @@ function gsb_feature_file_types_menu() {
 
 
 function gsb_feature_file_types_view_text_equivalent($file) {
+  module_load_include('php', 'markdown', 'markdown');
   // add CSS
   drupal_add_css(drupal_get_path('theme', 'gsb_theme') . '/css/style.css');
-  return $file->field_text_equivalent['und'][0]['value'];
+  return Markdown($file->field_text_equivalent['und'][0]['value']);
 }
 
 /**
