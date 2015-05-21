@@ -890,7 +890,15 @@ function gsb_feature_file_types_field_default_field_instances() {
         'label' => 'hidden',
         'module' => 'text',
         'settings' => array(
-          'conditions' => array(),
+          'conditions' => array(
+            0 => array(
+              'condition' => 'hide_on_pages',
+              'configuration' => array(
+                'pages' => 'text-equivalent/*',
+                'visibility' => 0,
+              ),
+            ),
+          ),
         ),
         'type' => 'text_default',
         'weight' => 3,
