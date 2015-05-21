@@ -1708,7 +1708,7 @@ function gsb_feature_file_types_field_default_field_instances() {
     'label' => 'Image',
     'required' => 0,
     'settings' => array(
-      'alt_field' => 0,
+      'alt_field' => 1,
       'custom_add_another' => '',
       'custom_remove' => '',
       'default_image' => 0,
