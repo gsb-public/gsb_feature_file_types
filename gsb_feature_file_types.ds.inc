@@ -25,7 +25,14 @@ function gsb_feature_file_types_ds_field_settings_info() {
         'ft' => array(
           'func' => 'theme_ds_field_expert',
         ),
-        'conditions' => array(),
+        'conditions' => array(
+          0 => array(
+            'condition' => 'hide_if_empty',
+            'configuration' => array(
+              'target' => 'field_text_equivalent',
+            ),
+          ),
+        ),
       ),
     ),
     'field_body' => array(
@@ -39,6 +46,11 @@ function gsb_feature_file_types_ds_field_settings_info() {
           'ow-at' => '',
           'ow-def-at' => FALSE,
         ),
+      ),
+    ),
+    'field_text_equivalent' => array(
+      'formatter_settings' => array(
+        'ft' => array(),
       ),
     ),
   );
@@ -57,7 +69,14 @@ function gsb_feature_file_types_ds_field_settings_info() {
       'format' => 'default',
       'formatter_settings' => array(
         'ft' => array(),
-        'conditions' => array(),
+        'conditions' => array(
+          0 => array(
+            'condition' => 'hide_if_empty',
+            'configuration' => array(
+              'target' => 'field_text_equivalent',
+            ),
+          ),
+        ),
       ),
     ),
     'field_body' => array(
@@ -71,6 +90,11 @@ function gsb_feature_file_types_ds_field_settings_info() {
           'ow-at' => '',
           'ow-def-at' => FALSE,
         ),
+      ),
+    ),
+    'field_text_equivalent' => array(
+      'formatter_settings' => array(
+        'ft' => array(),
       ),
     ),
   );
@@ -91,7 +115,15 @@ function gsb_feature_file_types_ds_field_settings_info() {
         'ft' => array(
           'func' => 'theme_ds_field_expert',
         ),
-        'conditions' => array(),
+        'conditions' => array(
+          0 => array(
+            'condition' => 'hide_no_string',
+            'configuration' => array(
+              'target' => 'field_text_equivalent',
+              'string' => '',
+            ),
+          ),
+        ),
       ),
     ),
     'field_body' => array(
@@ -125,7 +157,14 @@ function gsb_feature_file_types_ds_field_settings_info() {
         'ft' => array(
           'func' => 'theme_ds_field_expert',
         ),
-        'conditions' => array(),
+        'conditions' => array(
+          0 => array(
+            'condition' => 'hide_if_empty',
+            'configuration' => array(
+              'target' => 'field_text_equivalent',
+            ),
+          ),
+        ),
       ),
     ),
     'field_body' => array(
@@ -139,6 +178,11 @@ function gsb_feature_file_types_ds_field_settings_info() {
           'ow-at' => '',
           'ow-def-at' => FALSE,
         ),
+      ),
+    ),
+    'field_text_equivalent' => array(
+      'formatter_settings' => array(
+        'ft' => array(),
       ),
     ),
   );
@@ -588,12 +632,14 @@ function gsb_feature_file_types_ds_layout_settings_info() {
         0 => 'text_equivalent_link',
         1 => 'file',
         2 => 'field_body',
+        3 => 'field_text_equivalent',
       ),
     ),
     'fields' => array(
       'text_equivalent_link' => 'ds_content',
       'file' => 'ds_content',
       'field_body' => 'ds_content',
+      'field_text_equivalent' => 'ds_content',
     ),
     'classes' => array(),
     'wrappers' => array(
@@ -620,12 +666,14 @@ function gsb_feature_file_types_ds_layout_settings_info() {
         0 => 'text_equivalent_link',
         1 => 'file',
         2 => 'field_body',
+        3 => 'field_text_equivalent',
       ),
     ),
     'fields' => array(
       'text_equivalent_link' => 'ds_content',
       'file' => 'ds_content',
       'field_body' => 'ds_content',
+      'field_text_equivalent' => 'ds_content',
     ),
     'classes' => array(),
     'wrappers' => array(
@@ -652,12 +700,14 @@ function gsb_feature_file_types_ds_layout_settings_info() {
         0 => 'text_equivalent_link',
         1 => 'file',
         2 => 'field_body',
+        3 => 'field_text_equivalent',
       ),
     ),
     'fields' => array(
       'text_equivalent_link' => 'ds_content',
       'file' => 'ds_content',
       'field_body' => 'ds_content',
+      'field_text_equivalent' => 'ds_content',
     ),
     'classes' => array(),
     'wrappers' => array(
@@ -684,12 +734,14 @@ function gsb_feature_file_types_ds_layout_settings_info() {
         0 => 'text_equivalent_link',
         1 => 'file',
         2 => 'field_body',
+        3 => 'field_text_equivalent',
       ),
     ),
     'fields' => array(
       'text_equivalent_link' => 'ds_content',
       'file' => 'ds_content',
       'field_body' => 'ds_content',
+      'field_text_equivalent' => 'ds_content',
     ),
     'classes' => array(),
     'wrappers' => array(

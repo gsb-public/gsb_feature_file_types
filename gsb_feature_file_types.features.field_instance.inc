@@ -704,25 +704,25 @@ function gsb_feature_file_types_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 4,
+        'weight' => 5,
       ),
       '1_3_width' => array(
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 4,
+        'weight' => 5,
       ),
       'default' => array(
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 3,
+        'weight' => 4,
       ),
       'full_width' => array(
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 4,
+        'weight' => 5,
       ),
       'preview' => array(
         'label' => 'above',
@@ -780,25 +780,25 @@ function gsb_feature_file_types_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 3,
+        'weight' => 4,
       ),
       '1_3_width' => array(
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 3,
+        'weight' => 4,
       ),
       'default' => array(
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 4,
+        'weight' => 5,
       ),
       'full_width' => array(
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 3,
+        'weight' => 4,
       ),
       'preview' => array(
         'label' => 'above',
@@ -887,28 +887,64 @@ function gsb_feature_file_types_field_default_field_instances() {
     'description' => '',
     'display' => array(
       '1_2_width' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(
+          'conditions' => array(),
+        ),
+        'type' => 'text_default',
+        'weight' => 3,
       ),
       '1_3_width' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(
+          'conditions' => array(
+            0 => array(
+              'condition' => 'hide_on_pages',
+              'configuration' => array(
+                'pages' => 'text-equivalent/*',
+                'visibility' => 0,
+              ),
+            ),
+          ),
+        ),
+        'type' => 'text_default',
+        'weight' => 3,
       ),
       'default' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 4,
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(
+          'conditions' => array(
+            0 => array(
+              'condition' => 'hide_on_pages',
+              'configuration' => array(
+                'pages' => 'text-equivalent/*',
+                'visibility' => 0,
+              ),
+            ),
+          ),
+        ),
+        'type' => 'text_default',
+        'weight' => 3,
       ),
       'full_width' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(
+          'conditions' => array(
+            0 => array(
+              'condition' => 'hide_on_pages',
+              'configuration' => array(
+                'pages' => 'text-equivalent/*',
+                'visibility' => 0,
+              ),
+            ),
+          ),
+        ),
+        'type' => 'text_default',
+        'weight' => 3,
       ),
       'preview' => array(
         'label' => 'above',
