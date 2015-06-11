@@ -78,7 +78,9 @@ function gsb_feature_file_types_field_default_field_instances() {
     'widget' => array(
       'active' => 1,
       'module' => 'options',
-      'settings' => array(),
+      'settings' => array(
+        'checkall' => FALSE,
+      ),
       'type' => 'options_buttons',
       'weight' => -2,
     ),

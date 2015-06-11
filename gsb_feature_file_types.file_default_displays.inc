@@ -12,6 +12,232 @@ function gsb_feature_file_types_file_default_displays() {
 
   $file_display = new stdClass();
   $file_display->api_version = 1;
+  $file_display->name = 'document__wysiwyg_document__file_field_file_default';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = '';
+  $export['document__wysiwyg_document__file_field_file_default'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'document__wysiwyg_document__file_field_file_download_link';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = array(
+    'text' => 'Download [file:name]',
+  );
+  $export['document__wysiwyg_document__file_field_file_download_link'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'document__wysiwyg_document__file_field_file_table';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = '';
+  $export['document__wysiwyg_document__file_field_file_table'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'document__wysiwyg_document__file_field_file_url_plain';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = '';
+  $export['document__wysiwyg_document__file_field_file_url_plain'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'document__wysiwyg_document__file_field_gsb_field_formatter_document';
+  $file_display->weight = 0;
+  $file_display->status = TRUE;
+  $file_display->settings = '';
+  $export['document__wysiwyg_document__file_field_gsb_field_formatter_document'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'document__wysiwyg_document__file_field_gsb_field_formatter_download_link';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = array(
+    'text' => 'Download',
+  );
+  $export['document__wysiwyg_document__file_field_gsb_field_formatter_download_link'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'document__wysiwyg_document__file_field_gsb_field_formatter_image_or_video_popup';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = array(
+    'file_view_mode' => 'default',
+  );
+  $export['document__wysiwyg_document__file_field_gsb_field_formatter_image_or_video_popup'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'document__wysiwyg_document__file_field_gsb_field_formatter_resources_video_image_popup';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = array(
+    'image_style' => '',
+  );
+  $export['document__wysiwyg_document__file_field_gsb_field_formatter_resources_video_image_popup'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'document__wysiwyg_document__file_field_media_large_icon';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = '';
+  $export['document__wysiwyg_document__file_field_media_large_icon'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'document__wysiwyg_document__gsb_media_center_file_formatter_document';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = array(
+    'title' => '[file:field_title]',
+  );
+  $export['document__wysiwyg_document__gsb_media_center_file_formatter_document'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'document__wysiwyg_document__media_vimeo_image';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = array(
+    'image_style' => '',
+  );
+  $export['document__wysiwyg_document__media_vimeo_image'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'document__wysiwyg_document__media_vimeo_video';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = array(
+    'width' => '560',
+    'height' => '340',
+    'autoplay' => 0,
+  );
+  $export['document__wysiwyg_document__media_vimeo_video'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'document__wysiwyg_document__media_youtube_image';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = array(
+    'image_style' => '',
+  );
+  $export['document__wysiwyg_document__media_youtube_image'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'document__wysiwyg_document__media_youtube_video';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = array(
+    'width' => '640',
+    'height' => '390',
+    'theme' => 'dark',
+    'color' => 'red',
+    'autohide' => '2',
+    'autoplay' => 0,
+    'loop' => 0,
+    'showinfo' => 1,
+    'modestbranding' => 0,
+    'rel' => 1,
+    'nocookie' => 0,
+    'protocol_specify' => 0,
+    'protocol' => 'https:',
+    'enablejsapi' => 0,
+    'origin' => '',
+  );
+  $export['document__wysiwyg_document__media_youtube_video'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'document__wysiwyg_document__resources_resource_icon';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = array(
+    'image_style' => '',
+  );
+  $export['document__wysiwyg_document__resources_resource_icon'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'document__wysiwyg_document__resources_resource_soundcloud';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = array(
+    'soundcloud_widget' => 'Classic',
+    'width' => '640',
+    'height' => '390',
+    'color' => '',
+    'auto_play' => 0,
+    'hide_related' => 0,
+    'show_comments' => 0,
+    'show_user' => 0,
+    'show_reposts' => 0,
+  );
+  $export['document__wysiwyg_document__resources_resource_soundcloud'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'document__wysiwyg_document__resources_resource_soundcloud_image';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = array(
+    'image_style' => '',
+  );
+  $export['document__wysiwyg_document__resources_resource_soundcloud_image'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'document__wysiwyg_document__resources_resource_twitter_widget';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = '';
+  $export['document__wysiwyg_document__resources_resource_twitter_widget'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'document__wysiwyg_document__resources_resource_youtube_image';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = array(
+    'image_style' => '',
+  );
+  $export['document__wysiwyg_document__resources_resource_youtube_image'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'document__wysiwyg_document__resources_resource_youtube_video';
+  $file_display->weight = 0;
+  $file_display->status = FALSE;
+  $file_display->settings = array(
+    'width' => '640',
+    'height' => '390',
+    'theme' => 'dark',
+    'color' => 'red',
+    'autohide' => '2',
+    'autoplay' => 0,
+    'loop' => 0,
+    'showinfo' => 1,
+    'modestbranding' => 0,
+    'rel' => 1,
+    'nocookie' => 0,
+    'protocol_specify' => 0,
+    'protocol' => 'https:',
+    'enablejsapi' => 0,
+    'origin' => '',
+  );
+  $export['document__wysiwyg_document__resources_resource_youtube_video'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
   $file_display->name = 'image__default__file_field_fancybox';
   $file_display->weight = 0;
   $file_display->status = FALSE;
