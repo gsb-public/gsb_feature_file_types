@@ -97,9 +97,9 @@ function gsb_feature_file_types_media_token_to_markup_alter(&$element, $tag_info
     }
     if ($show_caption) {
       if (!empty($element['content']['file']['#title'])) {
-        $title = $element['content']['file']['#title'];        
+        $title = $element['content']['file']['#title'];
         if (!empty($title)) {
-          $element['content']['text'] = array('#markup' => '<span class="caption-text">' . $title . '</span>');
+          $element['content']['text'] = array('#markup' => '<figcaption class="caption-text">' . $title . '</figcaption>');
         }
       }
       if (!empty($element['content']['file']['#width'])) {
@@ -109,8 +109,8 @@ function gsb_feature_file_types_media_token_to_markup_alter(&$element, $tag_info
         }
       }
     }
-    $element['#prefix'] = '<span class="' . $alignment .'"' . $style . '>';
-    $element['#suffix'] = '</span>';
+    $element['#prefix'] = '<figure class="' . $alignment .'"' . $style . '>';
+    $element['#suffix'] = '</figure>';
   }
 }
 
