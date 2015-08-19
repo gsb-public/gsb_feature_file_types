@@ -1,7 +1,7 @@
 name = GSB Feature File Types
 core = 7.x
 package = GSB
-version = 7.x-5.04
+version = 7.x-5.07
 project = gsb_feature_file_types
 dependencies[] = ctools
 dependencies[] = ds
