@@ -562,11 +562,11 @@ function gsb_feature_file_types_strongarm() {
             'visible' => TRUE,
           ),
           '1_3_width' => array(
-            'weight' => '0',
+            'weight' => '1',
             'visible' => TRUE,
           ),
           'full_width' => array(
-            'weight' => '0',
+            'weight' => '1',
             'visible' => TRUE,
           ),
           'resource_browser_preview' => array(
@@ -578,7 +578,7 @@ function gsb_feature_file_types_strongarm() {
             'visible' => TRUE,
           ),
           'large_cover' => array(
-            'weight' => '0',
+            'weight' => '1',
             'visible' => TRUE,
           ),
         ),

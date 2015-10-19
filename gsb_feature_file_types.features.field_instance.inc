@@ -2035,7 +2035,7 @@ function gsb_feature_file_types_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 0,
+        'weight' => 2,
       ),
       'default' => array(
         'label' => 'above',
@@ -2050,13 +2050,13 @@ function gsb_feature_file_types_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 0,
+        'weight' => 2,
       ),
       'large_cover' => array(
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 1,
+        'weight' => 2,
       ),
       'preview' => array(
         'label' => 'above',
@@ -2165,13 +2165,16 @@ function gsb_feature_file_types_field_default_field_instances() {
         'settings' => array(
           'conditions' => array(),
         ),
-        'type' => 'text_plain',
+        'type' => 'text_default',
         'weight' => 0,
       ),
       '1_3_width' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(
+          'conditions' => array(),
+        ),
+        'type' => 'text_default',
         'weight' => 0,
       ),
       'default' => array(
@@ -2184,15 +2187,21 @@ function gsb_feature_file_types_field_default_field_instances() {
         'weight' => 0,
       ),
       'full_width' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(
+          'conditions' => array(),
+        ),
+        'type' => 'text_default',
         'weight' => 0,
       ),
       'large_cover' => array(
         'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
+        'module' => 'text',
+        'settings' => array(
+          'conditions' => array(),
+        ),
+        'type' => 'text_default',
         'weight' => 0,
       ),
       'preview' => array(
