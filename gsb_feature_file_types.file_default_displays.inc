@@ -2356,6 +2356,7 @@ function gsb_feature_file_types_file_default_displays() {
     'show_comments' => 0,
     'show_user' => 0,
     'show_reposts' => 0,
+    'inverse' => 0,
   );
   $export['resource_soundcloud__1_2_width__resources_resource_soundcloud'] = $file_display;
 
@@ -2582,6 +2583,7 @@ function gsb_feature_file_types_file_default_displays() {
     'show_comments' => 0,
     'show_user' => 0,
     'show_reposts' => 0,
+    'inverse' => 0,
   );
   $export['resource_soundcloud__1_3_width__resources_resource_soundcloud'] = $file_display;
 
@@ -2808,6 +2810,7 @@ function gsb_feature_file_types_file_default_displays() {
     'show_comments' => 0,
     'show_user' => 0,
     'show_reposts' => 0,
+    'inverse' => 0,
   );
   $export['resource_soundcloud__full_width__resources_resource_soundcloud'] = $file_display;
 

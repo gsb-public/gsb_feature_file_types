@@ -2031,7 +2031,19 @@ function gsb_feature_file_types_field_default_field_instances() {
         'type' => 'hidden',
         'weight' => 2,
       ),
+      '1_2_width_mini' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 2,
+      ),
       '1_3_width' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 2,
+      ),
+      '1_3_width_mini' => array(
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
@@ -2047,6 +2059,12 @@ function gsb_feature_file_types_field_default_field_instances() {
         'weight' => 2,
       ),
       'full_width' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 2,
+      ),
+      'full_width_mini' => array(
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
@@ -2168,7 +2186,25 @@ function gsb_feature_file_types_field_default_field_instances() {
         'type' => 'text_default',
         'weight' => 0,
       ),
+      '1_2_width_mini' => array(
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(
+          'conditions' => array(),
+        ),
+        'type' => 'text_default',
+        'weight' => 0,
+      ),
       '1_3_width' => array(
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(
+          'conditions' => array(),
+        ),
+        'type' => 'text_default',
+        'weight' => 0,
+      ),
+      '1_3_width_mini' => array(
         'label' => 'hidden',
         'module' => 'text',
         'settings' => array(
@@ -2187,6 +2223,15 @@ function gsb_feature_file_types_field_default_field_instances() {
         'weight' => 0,
       ),
       'full_width' => array(
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(
+          'conditions' => array(),
+        ),
+        'type' => 'text_default',
+        'weight' => 0,
+      ),
+      'full_width_mini' => array(
         'label' => 'hidden',
         'module' => 'text',
         'settings' => array(
