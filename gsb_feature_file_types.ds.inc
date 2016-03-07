@@ -565,7 +565,7 @@ function gsb_feature_file_types_ds_custom_fields_info() {
   $ds_field->ui_limit = 'resource_image|*';
   $ds_field->properties = array(
     'code' => array(
-      'value' => '<div class="image-text-equivalent"><a target="_blank" href="/text-equivalent/[file:fid]">See Text Equivalent</a></div>',
+      'value' => '<div class="image-text-equivalent"><a target="_blank" href="/text-equivalent/file/[file:fid]">See Text Equivalent</a></div>',
       'format' => 'gsb_html_text',
     ),
     'use_token' => 1,
