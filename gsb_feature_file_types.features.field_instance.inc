@@ -10,7 +10,7 @@
 function gsb_feature_file_types_field_default_field_instances() {
   $field_instances = array();
 
-  // Exported field_instance: 'file-audio-field_sections'
+  // Exported field_instance: 'file-audio-field_sections'.
   $field_instances['file-audio-field_sections'] = array(
     'bundle' => 'audio',
     'default_value' => NULL,
@@ -87,7 +87,7 @@ function gsb_feature_file_types_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'file-document-field_sections'
+  // Exported field_instance: 'file-document-field_sections'.
   $field_instances['file-document-field_sections'] = array(
     'bundle' => 'document',
     'default_value' => NULL,
@@ -168,7 +168,7 @@ function gsb_feature_file_types_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'file-image-field_file_image_alignment'
+  // Exported field_instance: 'file-image-field_file_image_alignment'.
   $field_instances['file-image-field_file_image_alignment'] = array(
     'bundle' => 'image',
     'default_value' => array(
@@ -244,7 +244,7 @@ function gsb_feature_file_types_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'file-image-field_file_image_alt_text'
+  // Exported field_instance: 'file-image-field_file_image_alt_text'.
   $field_instances['file-image-field_file_image_alt_text'] = array(
     'bundle' => 'image',
     'default_value' => NULL,
@@ -321,7 +321,7 @@ function gsb_feature_file_types_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'file-image-field_file_image_show_caption'
+  // Exported field_instance: 'file-image-field_file_image_show_caption'.
   $field_instances['file-image-field_file_image_show_caption'] = array(
     'bundle' => 'image',
     'default_value' => array(
@@ -398,7 +398,7 @@ function gsb_feature_file_types_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'file-image-field_file_image_title_text'
+  // Exported field_instance: 'file-image-field_file_image_title_text'.
   $field_instances['file-image-field_file_image_title_text'] = array(
     'bundle' => 'image',
     'default_value' => NULL,
@@ -475,7 +475,7 @@ function gsb_feature_file_types_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'file-image-field_sections'
+  // Exported field_instance: 'file-image-field_sections'.
   $field_instances['file-image-field_sections'] = array(
     'bundle' => 'image',
     'default_value' => NULL,
@@ -556,7 +556,7 @@ function gsb_feature_file_types_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'file-resource_image-field_body'
+  // Exported field_instance: 'file-resource_image-field_body'.
   $field_instances['file-resource_image-field_body'] = array(
     'bundle' => 'resource_image',
     'custom_add_another' => '',
@@ -688,12 +688,12 @@ function gsb_feature_file_types_field_default_field_instances() {
         'rows' => 2,
       ),
       'type' => 'text_textarea',
-      'weight' => 5,
+      'weight' => 4,
     ),
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'file-resource_image-field_click_to_expand'
+  // Exported field_instance: 'file-resource_image-field_click_to_expand'.
   $field_instances['file-resource_image-field_click_to_expand'] = array(
     'bundle' => 'resource_image',
     'custom_add_another' => '',
@@ -769,7 +769,7 @@ function gsb_feature_file_types_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'file-resource_image-field_file_image_alt_text'
+  // Exported field_instance: 'file-resource_image-field_file_image_alt_text'.
   $field_instances['file-resource_image-field_file_image_alt_text'] = array(
     'bundle' => 'resource_image',
     'custom_add_another' => '',
@@ -879,7 +879,7 @@ function gsb_feature_file_types_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'file-resource_image-field_text_equivalent'
+  // Exported field_instance: 'file-resource_image-field_text_equivalent'.
   $field_instances['file-resource_image-field_text_equivalent'] = array(
     'bundle' => 'resource_image',
     'custom_add_another' => '',
@@ -1051,7 +1051,144 @@ function gsb_feature_file_types_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'file-resource_pull_quote-field_description'
+  // Exported field_instance: 'file-resource_image-field_title'.
+  $field_instances['file-resource_image-field_title'] = array(
+    'bundle' => 'resource_image',
+    'custom_add_another' => '',
+    'custom_remove' => '',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      '1_2_width' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      '1_3_width' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(
+          'conditions' => array(),
+        ),
+        'type' => 'text_default',
+        'weight' => 6,
+      ),
+      'full_width' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'preview' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'resource_browser_preview' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'ds_extras_field_template' => '',
+    'entity_type' => 'file',
+    'field_name' => 'field_title',
+    'label' => 'Text Equivalent Title',
+    'required' => 0,
+    'settings' => array(
+      'better_formats' => array(
+        'allowed_formats' => array(
+          'act' => 'act',
+          'full_html' => 'full_html',
+          'gsb_html_text' => 'gsb_html_text',
+          'gsb_wysiwyg_text' => 'gsb_wysiwyg_text',
+          'image_resource_caption' => 'image_resource_caption',
+          'image_text_equivalent' => 'image_text_equivalent',
+          'markdown' => 'markdown',
+          'markdown_lite_minus_resources' => 'markdown_lite_minus_resources',
+          'paragraphed_plain_text' => 'paragraphed_plain_text',
+          'plain_text' => 'plain_text',
+          'sidebar' => 'sidebar',
+          'slideshow' => 'slideshow',
+        ),
+        'allowed_formats_toggle' => 0,
+        'default_order_toggle' => 0,
+        'default_order_wrapper' => array(
+          'formats' => array(
+            'act' => array(
+              'weight' => 0,
+            ),
+            'full_html' => array(
+              'weight' => 1,
+            ),
+            'gsb_html_text' => array(
+              'weight' => -9,
+            ),
+            'gsb_wysiwyg_text' => array(
+              'weight' => -10,
+            ),
+            'image_resource_caption' => array(
+              'weight' => 0,
+            ),
+            'image_text_equivalent' => array(
+              'weight' => 0,
+            ),
+            'markdown' => array(
+              'weight' => 0,
+            ),
+            'markdown_lite_minus_resources' => array(
+              'weight' => 0,
+            ),
+            'paragraphed_plain_text' => array(
+              'weight' => 0,
+            ),
+            'plain_text' => array(
+              'weight' => 10,
+            ),
+            'sidebar' => array(
+              'weight' => 0,
+            ),
+            'slideshow' => array(
+              'weight' => 0,
+            ),
+          ),
+        ),
+      ),
+      'custom_add_another' => '',
+      'custom_remove' => '',
+      'linkit' => array(
+        'enable' => 0,
+        'insert_plugin' => '',
+      ),
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+      'wysiwyg_override' => 1,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'maxlength_js' => 0,
+        'maxlength_js_label' => 'Content limited to @limit characters, remaining: <strong>@remaining</strong>',
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 5,
+    ),
+    'workbench_access_field' => 0,
+  );
+
+  // Exported field_instance: 'file-resource_pull_quote-field_description'.
   $field_instances['file-resource_pull_quote-field_description'] = array(
     'bundle' => 'resource_pull_quote',
     'custom_add_another' => '',
@@ -1144,7 +1281,7 @@ function gsb_feature_file_types_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'file-resource_pull_quote-field_quote_author'
+  // Exported field_instance: 'file-resource_pull_quote-field_quote_author'.
   $field_instances['file-resource_pull_quote-field_quote_author'] = array(
     'bundle' => 'resource_pull_quote',
     'custom_add_another' => '',
@@ -1239,7 +1376,7 @@ function gsb_feature_file_types_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'file-resource_sidebar-field_body'
+  // Exported field_instance: 'file-resource_sidebar-field_body'.
   $field_instances['file-resource_sidebar-field_body'] = array(
     'bundle' => 'resource_sidebar',
     'custom_add_another' => '',
@@ -1375,7 +1512,7 @@ function gsb_feature_file_types_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'file-resource_sidebar-field_description'
+  // Exported field_instance: 'file-resource_sidebar-field_description'.
   $field_instances['file-resource_sidebar-field_description'] = array(
     'bundle' => 'resource_sidebar',
     'custom_add_another' => '',
@@ -1507,7 +1644,7 @@ function gsb_feature_file_types_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'file-resource_sidebar-field_editorial_summary'
+  // Exported field_instance: 'file-resource_sidebar-field_editorial_summary'.
   $field_instances['file-resource_sidebar-field_editorial_summary'] = array(
     'bundle' => 'resource_sidebar',
     'custom_add_another' => '',
@@ -1639,7 +1776,7 @@ function gsb_feature_file_types_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'file-resource_sidebar-field_image_single_public'
+  // Exported field_instance: 'file-resource_sidebar-field_image_single_public'.
   $field_instances['file-resource_sidebar-field_image_single_public'] = array(
     'bundle' => 'resource_sidebar',
     'custom_add_another' => '',
@@ -1756,7 +1893,7 @@ function gsb_feature_file_types_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'file-resource_sidebar-field_quote_author'
+  // Exported field_instance: 'file-resource_sidebar-field_quote_author'.
   $field_instances['file-resource_sidebar-field_quote_author'] = array(
     'bundle' => 'resource_sidebar',
     'custom_add_another' => '',
@@ -1886,7 +2023,7 @@ function gsb_feature_file_types_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'file-resource_sidebar-field_title'
+  // Exported field_instance: 'file-resource_sidebar-field_title'.
   $field_instances['file-resource_sidebar-field_title'] = array(
     'bundle' => 'resource_sidebar',
     'custom_add_another' => '',
@@ -2016,7 +2153,7 @@ function gsb_feature_file_types_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'file-resource_soundcloud-field_soundcloud_url'
+  // Exported field_instance: 'file-resource_soundcloud-field_soundcloud_url'.
   $field_instances['file-resource_soundcloud-field_soundcloud_url'] = array(
     'bundle' => 'resource_soundcloud',
     'custom_add_another' => '',
@@ -2168,7 +2305,7 @@ function gsb_feature_file_types_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'file-resource_soundcloud-field_title'
+  // Exported field_instance: 'file-resource_soundcloud-field_title'.
   $field_instances['file-resource_soundcloud-field_title'] = array(
     'bundle' => 'resource_soundcloud',
     'custom_add_another' => '',
@@ -2346,7 +2483,7 @@ function gsb_feature_file_types_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'file-resource_twitter-field_twitter_url'
+  // Exported field_instance: 'file-resource_twitter-field_twitter_url'.
   $field_instances['file-resource_twitter-field_twitter_url'] = array(
     'bundle' => 'resource_twitter',
     'custom_add_another' => '',
@@ -2421,7 +2558,7 @@ function gsb_feature_file_types_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'file-resource_youtube-field_youtube_embed_code'
+  // Exported field_instance: 'file-resource_youtube-field_youtube_embed_code'.
   $field_instances['file-resource_youtube-field_youtube_embed_code'] = array(
     'bundle' => 'resource_youtube',
     'custom_add_another' => '',
@@ -2497,7 +2634,7 @@ function gsb_feature_file_types_field_default_field_instances() {
     'workbench_access_field' => 0,
   );
 
-  // Exported field_instance: 'file-video-field_sections'
+  // Exported field_instance: 'file-video-field_sections'.
   $field_instances['file-video-field_sections'] = array(
     'bundle' => 'video',
     'default_value' => NULL,
@@ -2590,6 +2727,7 @@ function gsb_feature_file_types_field_default_field_instances() {
   t('SoundCloud URL');
   t('Text');
   t('Text Equivalent');
+  t('Text Equivalent Title');
   t('Title');
   t('Title Text');
   t('Title text attribute');

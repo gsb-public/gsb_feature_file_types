@@ -834,5 +834,33 @@ function gsb_feature_file_types_strongarm() {
   );
   $export['field_bundle_settings_file__video'] = $strongarm;
 
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'pathauto_file_resource_image_pattern';
+  $strongarm->value = '';
+  $export['pathauto_file_resource_image_pattern'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'pathauto_file_resource_pull_quote_pattern';
+  $strongarm->value = '';
+  $export['pathauto_file_resource_pull_quote_pattern'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'pathauto_file_resource_twitter_pattern';
+  $strongarm->value = '';
+  $export['pathauto_file_resource_twitter_pattern'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'pathauto_file_resource_youtube_pattern';
+  $strongarm->value = '';
+  $export['pathauto_file_resource_youtube_pattern'] = $strongarm;
+
   return $export;
 }
