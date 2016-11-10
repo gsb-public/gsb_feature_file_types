@@ -264,7 +264,7 @@ function gsb_feature_file_types_strongarm() {
           'weight' => '4',
         ),
         'redirect' => array(
-          'weight' => '3',
+          'weight' => '4',
         ),
       ),
       'display' => array(

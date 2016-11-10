@@ -688,7 +688,7 @@ function gsb_feature_file_types_field_default_field_instances() {
         'rows' => 2,
       ),
       'type' => 'text_textarea',
-      'weight' => 4,
+      'weight' => 5,
     ),
     'workbench_access_field' => 0,
   );
@@ -874,7 +874,7 @@ function gsb_feature_file_types_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 2,
+      'weight' => 3,
     ),
     'workbench_access_field' => 0,
   );
@@ -1103,7 +1103,7 @@ function gsb_feature_file_types_field_default_field_instances() {
     'ds_extras_field_template' => '',
     'entity_type' => 'file',
     'field_name' => 'field_title',
-    'label' => 'Text Equivalent Title',
+    'label' => 'Title',
     'required' => 0,
     'settings' => array(
       'better_formats' => array(
@@ -1183,7 +1183,7 @@ function gsb_feature_file_types_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 5,
+      'weight' => 2,
     ),
     'workbench_access_field' => 0,
   );
@@ -2727,7 +2727,6 @@ function gsb_feature_file_types_field_default_field_instances() {
   t('SoundCloud URL');
   t('Text');
   t('Text Equivalent');
-  t('Text Equivalent Title');
   t('Title');
   t('Title Text');
   t('Title text attribute');
