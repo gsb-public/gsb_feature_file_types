@@ -69,7 +69,12 @@ function gsb_feature_file_types_media_token_to_markup_alter(&$element, $tag_info
 /**
  * Implements hook_form_alter() for reource image form.
  */
-function gsb_feature_file_types_form_alter(&$form, &$form_state, $form_id){
+function gsb_feature_file_types_form_alter(&$form, &$form_state, $form_id) {
+  if ($form_id == 'resources_edit_form') {
+    if (!empty($form['field_title'])) {
+      $form['field_title']['#weight'] = -20;
+    }
+  }
   if ($form_id == 'resources_add_form'){
     $form['upload']['#description'] = t('Note: making all resource images this size will ensure you can move it from third > half > full without having to resize the image.
           <ul><li>Full: 1630 x 350 px (recommended height)</li><li>1/2: 815 px wide (variable height)</li><li>1/3: 540 px wide (variable height)</li>');
