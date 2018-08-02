@@ -851,6 +851,20 @@ function gsb_feature_file_types_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'pathauto_file_resource_sidebar_pattern';
+  $strongarm->value = '';
+  $export['pathauto_file_resource_sidebar_pattern'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'pathauto_file_resource_soundcloud_pattern';
+  $strongarm->value = '';
+  $export['pathauto_file_resource_soundcloud_pattern'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'pathauto_file_resource_twitter_pattern';
   $strongarm->value = '';
   $export['pathauto_file_resource_twitter_pattern'] = $strongarm;
