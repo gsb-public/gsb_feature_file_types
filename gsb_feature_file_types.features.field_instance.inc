@@ -567,12 +567,9 @@ function gsb_feature_file_types_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'above',
-        'module' => 'text',
-        'settings' => array(
-          'conditions' => array(),
-        ),
-        'type' => 'text_default',
-        'weight' => 0,
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 1,
       ),
       'diptych' => array(
         'label' => 'above',
@@ -701,12 +698,9 @@ function gsb_feature_file_types_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'above',
-        'module' => 'computed_field',
-        'settings' => array(
-          'conditions' => array(),
-        ),
-        'type' => 'computed_field_plain',
-        'weight' => 1,
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 2,
       ),
       'diptych' => array(
         'label' => 'above',

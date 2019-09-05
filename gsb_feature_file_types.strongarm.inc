@@ -202,7 +202,59 @@ function gsb_feature_file_types_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'field_bundle_settings_file__resource_art19';
   $strongarm->value = array(
-    'view_modes' => array(),
+    'view_modes' => array(
+      'teaser' => array(
+        'custom_settings' => TRUE,
+      ),
+      'preview' => array(
+        'custom_settings' => TRUE,
+      ),
+      'diptych' => array(
+        'custom_settings' => TRUE,
+      ),
+      'gsb_slideshow' => array(
+        'custom_settings' => TRUE,
+      ),
+      'full' => array(
+        'custom_settings' => FALSE,
+      ),
+      'rss' => array(
+        'custom_settings' => FALSE,
+      ),
+      'wysiwyg_document' => array(
+        'custom_settings' => FALSE,
+      ),
+      'token' => array(
+        'custom_settings' => FALSE,
+      ),
+      '1_2_width' => array(
+        'custom_settings' => FALSE,
+      ),
+      '1_2_width_mini' => array(
+        'custom_settings' => FALSE,
+      ),
+      '1_3_width' => array(
+        'custom_settings' => FALSE,
+      ),
+      '1_3_width_mini' => array(
+        'custom_settings' => FALSE,
+      ),
+      'full_width' => array(
+        'custom_settings' => FALSE,
+      ),
+      'full_width_mini' => array(
+        'custom_settings' => FALSE,
+      ),
+      'large_cover' => array(
+        'custom_settings' => FALSE,
+      ),
+      'original_image' => array(
+        'custom_settings' => FALSE,
+      ),
+      'resource_browser_preview' => array(
+        'custom_settings' => FALSE,
+      ),
+    ),
     'extra_fields' => array(
       'form' => array(
         'filename' => array(
@@ -218,7 +270,14 @@ function gsb_feature_file_types_strongarm() {
           'weight' => '30',
         ),
       ),
-      'display' => array(),
+      'display' => array(
+        'file' => array(
+          'default' => array(
+            'weight' => '0',
+            'visible' => TRUE,
+          ),
+        ),
+      ),
     ),
   );
   $export['field_bundle_settings_file__resource_art19'] = $strongarm;
