@@ -204,16 +204,16 @@ function gsb_feature_file_types_strongarm() {
   $strongarm->value = array(
     'view_modes' => array(
       'teaser' => array(
-        'custom_settings' => TRUE,
+        'custom_settings' => FALSE,
       ),
       'preview' => array(
         'custom_settings' => TRUE,
       ),
       'diptych' => array(
-        'custom_settings' => TRUE,
+        'custom_settings' => FALSE,
       ),
       'gsb_slideshow' => array(
-        'custom_settings' => TRUE,
+        'custom_settings' => FALSE,
       ),
       'full' => array(
         'custom_settings' => FALSE,
@@ -228,19 +228,19 @@ function gsb_feature_file_types_strongarm() {
         'custom_settings' => FALSE,
       ),
       '1_2_width' => array(
-        'custom_settings' => FALSE,
+        'custom_settings' => TRUE,
       ),
       '1_2_width_mini' => array(
         'custom_settings' => FALSE,
       ),
       '1_3_width' => array(
-        'custom_settings' => FALSE,
+        'custom_settings' => TRUE,
       ),
       '1_3_width_mini' => array(
         'custom_settings' => FALSE,
       ),
       'full_width' => array(
-        'custom_settings' => FALSE,
+        'custom_settings' => TRUE,
       ),
       'full_width_mini' => array(
         'custom_settings' => FALSE,
@@ -252,7 +252,7 @@ function gsb_feature_file_types_strongarm() {
         'custom_settings' => FALSE,
       ),
       'resource_browser_preview' => array(
-        'custom_settings' => FALSE,
+        'custom_settings' => TRUE,
       ),
     ),
     'extra_fields' => array(
@@ -273,6 +273,22 @@ function gsb_feature_file_types_strongarm() {
       'display' => array(
         'file' => array(
           'default' => array(
+            'weight' => '0',
+            'visible' => TRUE,
+          ),
+          '1_2_width' => array(
+            'weight' => '0',
+            'visible' => TRUE,
+          ),
+          '1_3_width' => array(
+            'weight' => '0',
+            'visible' => TRUE,
+          ),
+          'full_width' => array(
+            'weight' => '0',
+            'visible' => TRUE,
+          ),
+          'resource_browser_preview' => array(
             'weight' => '0',
             'visible' => TRUE,
           ),
