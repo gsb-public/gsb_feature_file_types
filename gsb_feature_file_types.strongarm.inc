@@ -207,7 +207,7 @@ function gsb_feature_file_types_strongarm() {
         'custom_settings' => FALSE,
       ),
       'preview' => array(
-        'custom_settings' => TRUE,
+        'custom_settings' => FALSE,
       ),
       'diptych' => array(
         'custom_settings' => FALSE,
@@ -252,40 +252,40 @@ function gsb_feature_file_types_strongarm() {
         'custom_settings' => FALSE,
       ),
       'resource_browser_preview' => array(
-        'custom_settings' => TRUE,
+        'custom_settings' => FALSE,
       ),
     ),
     'extra_fields' => array(
       'form' => array(
         'filename' => array(
-          'weight' => '-10',
+          'weight' => '0',
         ),
         'preview' => array(
-          'weight' => '-5',
+          'weight' => '2',
         ),
         'metatags' => array(
-          'weight' => '40',
+          'weight' => '4',
         ),
         'redirect' => array(
-          'weight' => '30',
+          'weight' => '3',
         ),
       ),
       'display' => array(
         'file' => array(
           'default' => array(
-            'weight' => '0',
+            'weight' => '1',
             'visible' => TRUE,
           ),
           '1_2_width' => array(
-            'weight' => '0',
+            'weight' => '1',
             'visible' => TRUE,
           ),
           '1_3_width' => array(
-            'weight' => '0',
+            'weight' => '1',
             'visible' => TRUE,
           ),
           'full_width' => array(
-            'weight' => '0',
+            'weight' => '1',
             'visible' => TRUE,
           ),
           'resource_browser_preview' => array(
