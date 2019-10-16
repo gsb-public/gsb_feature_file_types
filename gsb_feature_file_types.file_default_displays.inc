@@ -2038,7 +2038,7 @@ function gsb_feature_file_types_file_default_displays() {
   $file_display->api_version = 1;
   $file_display->name = 'resource_art19__resource_browser_preview__file_field_file_url_plain';
   $file_display->weight = 0;
-  $file_display->status = FALSE;
+  $file_display->status = TRUE;
   $file_display->settings = '';
   $export['resource_art19__resource_browser_preview__file_field_file_url_plain'] = $file_display;
 
@@ -2110,7 +2110,7 @@ function gsb_feature_file_types_file_default_displays() {
   $file_display->api_version = 1;
   $file_display->name = 'resource_art19__resource_browser_preview__resources_resource_art19';
   $file_display->weight = 0;
-  $file_display->status = TRUE;
+  $file_display->status = FALSE;
   $file_display->settings = '';
   $export['resource_art19__resource_browser_preview__resources_resource_art19'] = $file_display;
 
