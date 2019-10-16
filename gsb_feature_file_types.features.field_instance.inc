@@ -806,29 +806,25 @@ function gsb_feature_file_types_field_default_field_instances() {
     'description' => '',
     'display' => array(
       '1_2_width' => array(
-        'label' => 'above',
-        'module' => 'gsb_field_formatter',
+        'label' => 'hidden',
+        'module' => 'text',
         'settings' => array(
           'conditions' => array(),
-          'text' => 'Twitter',
-          'view_mode' => '',
         ),
-        'type' => 'gsb_field_formatter_twitter_handle',
+        'type' => 'text_default',
         'weight' => 0,
       ),
       '1_3_width' => array(
-        'label' => 'above',
-        'module' => 'gsb_field_formatter',
+        'label' => 'hidden',
+        'module' => 'text',
         'settings' => array(
           'conditions' => array(),
-          'text' => 'Twitter',
-          'view_mode' => '',
         ),
-        'type' => 'gsb_field_formatter_twitter_handle',
+        'type' => 'text_default',
         'weight' => 0,
       ),
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'text',
         'settings' => array(
           'conditions' => array(),
@@ -837,14 +833,12 @@ function gsb_feature_file_types_field_default_field_instances() {
         'weight' => 0,
       ),
       'full_width' => array(
-        'label' => 'above',
-        'module' => 'gsb_field_formatter',
+        'label' => 'hidden',
+        'module' => 'text',
         'settings' => array(
           'conditions' => array(),
-          'text' => 'Twitter',
-          'view_mode' => '',
         ),
-        'type' => 'gsb_field_formatter_twitter_handle',
+        'type' => 'text_default',
         'weight' => 0,
       ),
     ),
