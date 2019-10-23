@@ -1706,7 +1706,7 @@ function gsb_feature_file_types_field_default_field_instances() {
     'custom_remove' => '',
     'default_value' => array(
       0 => array(
-        'value' => '<div class="infogram-embed" data-id="<data-id>" data-title="" data-type="interactive">&nbsp;</div>
+        'value' => '<div class="infogram-embed" data-id="<data-id>" data-title="Embedded Infogram Resource" data-type="interactive">&nbsp;</div>
 <script>!function(e,t,s,i){var n="InfogramEmbeds",o=e.getElementsByTagName("script")[0],d=/^http:/.test(e.location)?"http:":"https:";if(/^\\/{2}/.test(i)&&(i=d+i),window[n]&&window[n].initialized)window[n].process&&window[n].process();else if(!e.getElementById(s)){var r=e.createElement("script");r.async=1,r.id=s,r.src=i,o.parentNode.insertBefore(r,o)}}(document,0,"infogram-async","https://e.infogram.com/js/dist/embed-loader-min.js");</script>
 
 <div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px">&nbsp;</div>
